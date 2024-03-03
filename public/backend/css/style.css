@@ -11750,7 +11750,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
   transition: all .2s ease; }
   @media only screen and (max-width: 1350px) {
     .content-body {
-      margin-left: 15rem; } }
+      margin-left: 17rem; } }
 
 .bell img {
   -webkit-animation: ring 8s .7s ease-in-out infinite;
@@ -11933,7 +11933,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
     height: 100%; }
   @media only screen and (max-width: 1350px) {
     .deznav {
-      width: 15rem; } }
+      width: 17rem; } }
   .deznav ul {
     padding: 0;
     margin: 0;
