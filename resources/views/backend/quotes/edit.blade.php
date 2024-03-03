@@ -206,7 +206,7 @@
                                         <tr>
                                             <td><b>Pick Datetime</b></td>
                                             <td class="form-group">
-                                                <input type="datetime-local" id="pick_datetime" name="pick_datetime" class="form-control datatimepicker @error('pick_datetime') is-invalid @enderror" value="{{Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $query->booking->pick_datetime)->format('Y-m-d h:i:s')}}">
+                                                <input type="text" id="pick_datetime" name="pick_datetime" class="form-control datetimepicker @error('pick_datetime') is-invalid @enderror" value="{{Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $query->booking->pick_datetime)->format('Y-m-d h:i:s')}}">
                                                 @error('pick_datetime')
                                                     <div class="invalid-feedback">
                                                     {{ $message }}
@@ -328,7 +328,7 @@
                 //minDate: 0,
                 dateFormat: 'Y-m-d',
                 timeFormat: 'HH:mm:ss',
-                step: 15
+                step: 5
             });
         });
        
