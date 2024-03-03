@@ -10,7 +10,7 @@
 
               <ul class="navbar-nav header-right">
                   <li class="nav-item dropdown header-profile">
-                      <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
+                      <a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
                         @if(Auth::user()->file_path!='')
                           <img src="{{ Auth::user()->avatar_url }}" width="20" alt=""/>
                         @else  

@@ -40,7 +40,7 @@
             Nav header start
         ***********************************-->
         <div class="nav-header">
-            <a href="#" class="brand-logo">
+            <a href="{{route('admin.dashboard.index')}}" class="brand-logo">
             @if($setting->file_path!='')
                 <img class="logo-abbr" src="{{ $setting->file_url }}" alt="{{ $setting->title }}">
             @else
