@@ -6,7 +6,7 @@
 
 @section('styles')
     @parent
-    
+    <link href="{{url('backend/datetimepicker/jquery.datetimepicker.min.css')}}" rel="stylesheet">
     <style>
         .nav-tabs {
             font-size:smaller !important;
@@ -265,9 +265,9 @@
                                             <td><b>Returning Datetime</b></td>
                                             <td class="form-group">
                                                 @if(!empty($query->booking->returning_datetime) && ($query->booking->returning_datetime != '0000-00-00 00:00:00'))
-                                                    <input type="datetime-local" my-date-format="YYYY-MM-DD, hh:mm:ss" id="returning_datetime" name="returning_datetime" class="form-control datatimepicker @error('returning_datetime') is-invalid @enderror" value="{{Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $query->booking->returning_datetime)->format('Y-m-d H:i:s')}}">
+                                                    <input type="text" id="returning_datetime" name="returning_datetime" class="form-control datetimepicker @error('returning_datetime') is-invalid @enderror" value="{{Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $query->booking->returning_datetime)->format('Y-m-d H:i:s')}}">
                                                 @else
-                                                    <input type="datetime-local" my-date-format="YYYY-MM-DD, hh:mm:ss" id="returning_datetime" name="returning_datetime" class="form-control datatimepicker @error('returning_datetime') is-invalid @enderror" value="">
+                                                    <input type="text" id="returning_datetime" name="returning_datetime" class="form-control datetimepicker @error('returning_datetime') is-invalid @enderror" value="">
                                                 @endif
                                                 @error('returning_datetime')
                                                     <div class="invalid-feedback">
@@ -321,20 +321,18 @@
     @parent
     <script src="{{url('backend/vendor/select2/js/select2.full.min.js')}}"></script>
     <script src="{{url('backend/js/plugins-init/select2-init.js')}}"></script>
+    <script src="{{url('backend/datetimepicker/jquery.datetimepicker.full.min.js')}}"></script>
     <script>
-        
-       
-        $(document).ready(function () {
-            var today = new Date().toISOString().slice(0, 16);
-            document.getElementsByClassName("datatimepicker")[0].min = today;
-            // jQuery('#endDate').datetimepicker({
-            //     format: 'DD/MM/YYYY HH:mm:ss',
-            //     minDate: new Date()
-            // });
-            $(".datetimepicker").each(function () {
-                $(this).datetimepicker();
+        $(function() {
+            $('.datetimepicker').datetimepicker({
+                //minDate: 0,
+                dateFormat: 'Y-m-d',
+                timeFormat: 'HH:mm:ss',
+                step: 15
             });
-        })
+        });
+       
+        
         $('#quoteEdit').validate({
             ignore: [],
             debug: false,

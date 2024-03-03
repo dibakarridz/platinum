@@ -94,7 +94,7 @@
                 </div>
                
             </div>
-      
+
             <!-- bar chart -->
             <div class="row">
                 <div class="col-12">
