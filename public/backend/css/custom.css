@@ -1,0 +1,104 @@
+.select2-container--default .select2-selection--single{
+    padding:5px;
+    height: 40px;
+    position: relative;
+}
+.pass-generate {
+    margin-top: 35px;
+}
+.gen-pass {
+    margin-left: -30px;
+}
+.copy-pass {
+    margin-left: 20px;;
+}
+.gen-pass-btn {
+    width: 120px;
+}
+.copy-pass-btn {
+    width: 127px;
+}
+.password-gen-label {
+    margin-top: -36px !important;
+}
+.comment-field {
+    margin-right: 10px !important;
+}
+.comment-invalid-feedback {
+    color: red !important;
+}
+.card {
+    border-style: solid;
+    border-color: red;
+}
+.card-box {
+    width: 190px !important;
+    text-align: center;
+}
+.card-header {
+    padding: .5rem .5rem .5rem !important;
+    border-bottom:  2px solid rgba(0, 0, 0, 0.25) !important;
+}
+.card-body {
+    padding: .500rem !important;
+}
+.card-footer {
+    padding: .5rem .5rem .5rem !important;
+    border-top:  2px solid rgba(0, 0, 0, 0.25) !important;
+    border-radius: 0rem !important;
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    margin-left: 40px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #fff;
+  }
+  .new-quotes {
+    background: #FF0000;
+  }
+  .new-quotes-text{
+    color: #FF0000;
+  }
+  .quoted {
+    background: #E28743;
+  }
+  .quote-text{
+    color: #E28743;
+  }
+  .booked {
+    background: #49be25;
+  }
+  .book-text{
+    color: #49be25;
+  }
+  .removed {
+    background: #676d66;
+  }
+  .removed-text{
+    color: #676d66;
+  }
+  .forward {
+    background: #5050d0;
+  }
+  .forward-text{
+    color: #5050d0;
+  }
+  .btn-primary-quoted {
+    border-color: #E28743 !important;
+    background-color: #E28743 !important;
+  }
+  .btn-primary-forward {
+    border-color: #5050d0 !important;
+    background-color: #5050d0 !important;
+  }
+  .btn-primary-booked {
+    border-color: #49be25 !important;
+    background-color: #49be25 !important;
+  }
+  .btn-primary-quotes {
+    border-color: #FF0000 !important;
+    background-color: #FF0000 !important;
+  }
