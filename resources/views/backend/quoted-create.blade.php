@@ -29,7 +29,7 @@
 
 
         <div class="card mt-4">
-        <form action="http://localhost/platinum/admin/store" method="get" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+        <form action="#" method="get" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
 <div style="display: none;">
 <input type="hidden" name="_wpcf7" value="1323">
 <input type="hidden" name="_wpcf7_version" value="5.8.7">
