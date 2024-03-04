@@ -18,7 +18,7 @@
                         @endif
                         <div class="header-info">
                           <span>{{Auth::user()->name}}</span>
-                          <small>@if(Auth::user()->type == 1) {{ 'Admin' }} @endif</small>
+                          <small>@if(Auth::user()->type == 1) {{ 'Admin' }} @else {{'User'}} @endif</small>
                         </div>
                       </a>
                       <div class="dropdown-menu dropdown-menu-end">

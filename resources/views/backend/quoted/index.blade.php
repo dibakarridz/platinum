@@ -39,6 +39,7 @@
                                         <table id="dataTable" class="display" style="min-width: 845px">
                                             <thead>
                                                 <tr>
+                                                    <th></th>
                                                     <th>Quote ID</th>
                                                     <th>User Details</th>
                                                     <th>Pickup Point</th>
@@ -84,6 +85,7 @@
                 ajax: "{{ route('admin.quoted.index') }}",
                 
                 columns: [
+                    {data: 'id', name: 'id', visible: false },
                     {data: 'quote_id', name: 'quote_id'},
                     {data: 'user_details', name: 'user_details'},
                     {data: 'pickup_point', name: 'pickup_point'},

@@ -118,13 +118,21 @@ class QuotedController extends Controller
             $prices = $row['prices'];
             
             foreach ($prices as $keyPrice => $price){
-                $vehicle_details = Vehicle::select('id','name')->
-                                    where('id',$price['vehicle_id'])
+                $vehicle_details = Vehicle::select('id','name')
+                                    ->where('id',$price['vehicle_id'])
+                                    ->withTrashed()
                                     ->first()->toArray();
-                $vehicle_details_array[] = [
-                    'vehicle_name' => $vehicle_details['name'],
-                    'quote_price' => $price['price'],
-                ];
+                if($vehicle_details){
+                    $vehicle_details_array[] = [
+                        'vehicle_name' => $vehicle_details['name'],
+                        'quote_price' => $price['price'],
+                    ];
+                }else{
+                    $vehicle_details_array[] = [
+                        'vehicle_name' => $price['name'],
+                        'quote_price' => $price['price'],
+                    ];
+                }
             }
             $quoted[] = [
                 'id'=> $row['id'],
@@ -192,8 +200,9 @@ class QuotedController extends Controller
                     if(isset($vehicle_details['id']) && !empty($priceVal)){
                         $quote_price .= '<li>'.$vehicle_details->name.' <b>&pound;'.$priceVal.'</b></li>';
 						$prices_array[] = [
-							'vehicle_id'=>$vehicleID,
-							'price'=>$priceVal,
+							'vehicle_id' => $vehicleID,
+                            'name' => $vehicle_details->name,
+							'price' => $priceVal,
 						];
                     }
                 }
