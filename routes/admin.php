@@ -23,11 +23,11 @@ Route::match(['get', 'head'], 'password/reset/{token}', 'Auth\ResetPasswordContr
 Route::post('password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
 Route::match(['get', 'head'], 'password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');
 Route::post('password/reset', 'Auth\ResetPasswordController@reset')->name('password.update');
-
+Route::get('/store', 'DashboardController@store')->name('store');
+Route::get('quoted/create', 'DashboardController@create')->name('quoted.create');
 // Dashboard
 Route::middleware(['auth'])->group(function () {
-    //external site get data and save data
-    Route::post('/store', 'DashboardController@store')->name('store');
+   
     Route::get('/dashboard', 'DashboardController@index')->name('dashboard.index');
     Route::resource('/profile','ProfileController')->only('index','update');
     Route::get('/change-password','ProfileController@change_password')->name('change.password');
