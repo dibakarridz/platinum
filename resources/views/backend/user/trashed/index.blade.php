@@ -61,7 +61,7 @@
                                 </div>
                                 <div class="card-body" id="refreshData">
                                     <div class="table-responsive">
-                                        <table id="example4" class="display" style="min-width: 845px">
+                                        <table id="example4" class="table table-striped table-responsive-sm" style="min-width: 845px">
                                             <thead>
                                                 <tr>
                                                     <th class="checkbox_custom_style text-center">

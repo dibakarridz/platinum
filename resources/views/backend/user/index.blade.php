@@ -66,7 +66,7 @@
                                         </select>
                                     </div> -->
                                     <!-- <div class="table-responsive"> -->
-                                        <table id="dataTable" class="display" style="min-width: 845px">
+                                        <table id="dataTable" class="table table-striped table-responsive-sm" style="min-width: 845px">
                                             <thead>
                                                 <tr>
                                                     @if(Auth::user()->type == 1)

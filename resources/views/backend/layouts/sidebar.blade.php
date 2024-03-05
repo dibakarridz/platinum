@@ -14,7 +14,7 @@
             @if(Auth::user()->type == 1)
             <li>
                 <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-                    <i class="fas fa-users"></i>
+                    <i class="flaticon-381-user"></i>
                     <span class="nav-text">User</span>
                 </a>
 
