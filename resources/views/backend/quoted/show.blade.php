@@ -256,7 +256,9 @@
                                             
                                             <td>
                                             <?php foreach ($val['quote_details_price'] as $key => $price){
-                                                echo $price['vehicle_name'].' : <b>&pound;'.$price['quote_price'].'</b><hr>';
+                                                if($price['vehicle_name'] != ''){
+                                                    echo $price['vehicle_name'].' : <b>&pound;'.$price['quote_price'].'</b><hr>';
+                                                }
                                             }?>
                         
                                             </td>

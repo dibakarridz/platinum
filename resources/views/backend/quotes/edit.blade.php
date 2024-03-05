@@ -6,6 +6,7 @@
 
 @section('styles')
     @parent
+    <link href="{{url('backend/css/custom.css')}}" rel="stylesheet">
     <link href="{{url('backend/datetimepicker/jquery.datetimepicker.min.css')}}" rel="stylesheet">
     <style>
         .nav-tabs {

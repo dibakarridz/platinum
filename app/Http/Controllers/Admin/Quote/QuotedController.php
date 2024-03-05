@@ -116,24 +116,26 @@ class QuotedController extends Controller
         foreach($quotedData as $key => $row){
             $vehicle_details_array = [];
             $prices = $row['prices'];
-            
             foreach ($prices as $keyPrice => $price){
-                $vehicle_details = Vehicle::select('id','name')
+               $priceQuotedCount = count($price);
+               $vehicle_details = Vehicle::select('id','name')
                                     ->where('id',$price['vehicle_id'])
-                                    ->withTrashed()
-                                    ->first()->toArray();
-                if($vehicle_details){
-                    $vehicle_details_array[] = [
-                        'vehicle_name' => $vehicle_details['name'],
-                        'quote_price' => $price['price'],
-                    ];
-                }else{
+                                    ->first();
+                if(is_null($vehicle_details)) {
                     $vehicle_details_array[] = [
                         'vehicle_name' => $price['name'],
                         'quote_price' => $price['price'],
                     ];
+                }else{
+                    $vehicle_details_array[] = [
+                        'vehicle_name' => $vehicle_details['name'],
+                        'quote_price' => $price['price'],
+                    ];
                 }
+             
+               
             }
+           
             $quoted[] = [
                 'id'=> $row['id'],
                 'prices'=> $row['prices'],
@@ -152,7 +154,7 @@ class QuotedController extends Controller
 
     public function send(Request $request, $id)
     {
-        
+     
         $rules = [
             'quotation_details' => 'required',
         ];
@@ -208,6 +210,7 @@ class QuotedController extends Controller
                 }
             }
         }
+       
         $quote_price .= '</ul>';
         $quotationDetails = $request->quotation_details;
         $domain_template = $getDomain->template;
@@ -345,7 +348,7 @@ class QuotedController extends Controller
 
                 $allUpdateQuery = Query::where('id',$id)->withTrashed()->first();
                 if($allUpdateQuery->deleted_at == null){
-                    $query = Query::finOrFail($id);
+                    $query = Query::findOrFail($id);
                 }else{
                     $query = Query::where('id',$id)->onlyTrashed()->first();
                 }
@@ -386,14 +389,25 @@ class QuotedController extends Controller
         if(!empty($sendQuotationDetails->prices)) {
             $quotePrices = $sendQuotationDetails->prices;
             foreach ($quotePrices as $quotePrice){
-                $prices_array[] = [
-                    'vehicle_id'=>$quotePrice['vehicle_id'],
-                    'price'=>$quotePrice['price']
-                ];
                 $vehicleDetails = Vehicle::select('id','name')
-                    ->where('id',$quotePrice['vehicle_id'])
-                    ->first();
-                if(isset($vehicleDetails['id']) && !empty($quotePrice['price'])){
+                ->where('id',$quotePrice['vehicle_id'])
+                ->first();
+                if(is_null($vehicleDetails)) {
+                    $prices_array[] = [
+                        'vehicle_id'=>$quotePrice['vehicle_id'],
+                        'name' => '',
+                        'price'=>$quotePrice['price']
+                    ];
+                }else{
+                    $prices_array[] = [
+                        'vehicle_id'=>$quotePrice['vehicle_id'],
+                        'name' => $quotePrice['name'],
+                        'price'=>$quotePrice['price']
+                    ];
+                }
+                
+               
+                if(isset($vehicleDetails['id']) && !empty($quotePrice['price']) && !empty($quotePrice['name'])){
                     $quote_price .= '<li>'.$vehicleDetails['name'].' <b>&pound;'.$quotePrice['price'].'</b></li>';
                 }
             }

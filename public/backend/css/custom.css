@@ -61,30 +61,35 @@
   }
   .new-quotes-text{
     color: #FF0000;
+    margin-top: 15px !important;
   }
   .quoted {
     background: #E28743;
   }
   .quote-text{
     color: #E28743;
+    margin-top: 15px !important;
   }
   .booked {
     background: #49be25;
   }
   .book-text{
     color: #49be25;
+    margin-top: 15px !important;
   }
   .removed {
     background: #676d66;
   }
   .removed-text{
     color: #676d66;
+    margin-top: 15px !important;
   }
   .forward {
     background: #5050d0;
   }
   .forward-text{
     color: #5050d0;
+    margin-top: 15px !important;
   }
   .btn-primary-quoted {
     border-color: #E28743 !important;
