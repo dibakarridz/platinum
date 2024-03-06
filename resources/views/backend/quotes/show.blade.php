@@ -187,7 +187,7 @@
                                 <h3 class="box-title">Quoted Lists</h3>
                             </div>
                             <div class="box-body table-responsive no-padding">
-                                <table class="table table-hover">
+                                <table class="table table-striped table-responsive-sm">
                                     <tr>
                                         <th>SL</th>
                                         <th>Prices</th>

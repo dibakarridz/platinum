@@ -47,8 +47,7 @@
             <!--  QUOTES -->
             <li>
                 <a class="ai-icon" href="{{route('admin.quoted.index')}}" aria-expanded="false">
-                <!-- <i class="fa fa-question" style="color:#E28743 !important;"></i> -->
-                <i class="fi fi-br-question"></i>
+                <i class="fa fa-question" style="color:#E28743 !important;"></i>
                     <span class="nav-text">Quoted</span>
                 </a>
             </li>
