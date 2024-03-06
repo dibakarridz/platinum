@@ -14,7 +14,7 @@
             @if(Auth::user()->type == 1)
             <li>
                 <a class="has-arrow ai-icon" href="javascript:void()" aria-expanded="false">
-                    <i class="flaticon-381-user"></i>
+                    <i class="fas fa-user"></i>
                     <span class="nav-text">User</span>
                 </a>
 
@@ -47,7 +47,8 @@
             <!--  QUOTES -->
             <li>
                 <a class="ai-icon" href="{{route('admin.quoted.index')}}" aria-expanded="false">
-                <i class="fa fa-question" style="color:#E28743 !important;"></i>
+                <!-- <i class="fa fa-question" style="color:#E28743 !important;"></i> -->
+                <i class="fi fi-br-question"></i>
                     <span class="nav-text">Quoted</span>
                 </a>
             </li>

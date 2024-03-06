@@ -65,9 +65,6 @@ function resendConfirm(route,quoteID,quotedID,msg){
   
 }
 
-
-
-
 function checkall(){
     var id=[];
     if ($("#multi_check").is(':checked')) {
