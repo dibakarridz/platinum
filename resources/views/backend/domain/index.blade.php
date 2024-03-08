@@ -63,7 +63,7 @@
                                         </div>
                                             
                                     </div>
-                                    <div class="card-body">
+                                    <div class="card-body" id="domain_table">
                                             <table id="dataTable" class="table table-striped table-responsive-sm" style="min-width: 845px">
                                                 <thead>
                                                     <tr>
@@ -123,6 +123,26 @@
                                                     @endforeach
                                                 </tbody>
                                             </table>
+                                            <div class="col-sm-12 d-flex flex-row-reverse align-items-center">
+                                                <nav class="d-flex">
+                                                    <ul class="pagination pagination-sm pagination-gutter">
+                                                        <li class="page-item page-indicator">
+                                                            <a class="page-link" href="javascript:void(0)">
+                                                                <i class="la la-angle-left"></i></a>
+                                                        </li>
+                                                        <li class="page-item active"><a class="page-link" href="javascript:void(0)">1</a>
+                                                        </li>
+                                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+                                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                                                        <li class="page-item"><a class="page-link" href="javascript:void(0)">4</a></li>
+                                                        <li class="page-item page-indicator">
+                                                            <a class="page-link" href="javascript:void(0)">
+                                                                <i class="la la-angle-right"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                            
                                     </div>
                                 </div>
                             </div>

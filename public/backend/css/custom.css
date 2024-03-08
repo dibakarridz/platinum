@@ -108,3 +108,24 @@
     background-color: #FF0000 !important;
   }
 
+  .apply-btn-primary {
+    margin-left: inherit !important;
+  }
+  .bootstrap-badge{
+    margin-right: 5px !important;
+  }
+  
+  .select-status{
+    margin-left: -70px !important;
+  }
+
+  .page-item.disabled{
+    cursor: not-allowed !important;
+  }
+  .page-link.disabled{
+    cursor: not-allowed !important;
+  }
+  .text-red{
+    color: #FF0000 !important;
+  }
+

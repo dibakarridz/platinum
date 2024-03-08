@@ -31,35 +31,35 @@ class DashboardController extends Controller
             'removed' => $removedCountData
         ];
 
-        $currentYear = Carbon::now()->year;
+        $previousYear = Carbon::now()->subYear();
         $newQuotes = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
-                    ->whereYear('datetime',$currentYear)
+                    ->whereYear('datetime',$previousYear)
                     ->where('status',1)
                     ->groupBy('month')
                     ->orderBy('month')
                     ->get();
      
         $quoted = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
-                    ->whereYear('datetime',$currentYear)
+                    ->whereYear('datetime',$previousYear)
                     ->where('status',2)
                     ->groupBy('month')
                     ->orderBy('month')
                     ->get();
        
         $forwarded = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
-                    ->whereYear('datetime',$currentYear)
+                    ->whereYear('datetime',$previousYear)
                     ->where('status',3)
                     ->groupBy('month')
                     ->orderBy('month')
                     ->get();
         $booked = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
-                    ->whereYear('datetime',$currentYear)
+                    ->whereYear('datetime',$previousYear)
                     ->where('status',4)
                     ->groupBy('month')
                     ->orderBy('month')
                     ->get();
         $removed = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
-                    ->whereYear('deleted_at',$currentYear)
+                    ->whereYear('deleted_at',$previousYear)
                     ->onlyTrashed()
                     ->groupBy('month')
                     ->orderBy('month')

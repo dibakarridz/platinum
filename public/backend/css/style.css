@@ -42078,7 +42078,7 @@ code {
     width: 60px !important; }
   .table thead th {
     border-bottom-width: 1px;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.5px;

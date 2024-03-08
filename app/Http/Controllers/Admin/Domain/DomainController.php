@@ -17,7 +17,7 @@ class DomainController extends Controller
     
     public function index()
     {
-        $domains = Domain::latest()->get();
+        $domains = Domain::latest()->paginate(10);
         $activeCount = count($domains);
         $trashedCount = Domain::onlyTrashed()->count();
         return view('backend.domain.index', compact(
