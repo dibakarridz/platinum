@@ -197,7 +197,7 @@ class DashboardController extends Controller
             return redirect()->away($redirect_url.'?status=error&msg='.$getDomain->error_msg);
         }
 
-        $clientIP = $request->ip();
+        $clientIP = $_SERVER['REMOTE_ADDR'];
         $pickUpDate =  $input['Pickdate-111'] ?? null;
         $pickupHour = $input['ddl-hr'] ?? '00';
         $pickupMin = $input['ddl-minute'] ?? '00';

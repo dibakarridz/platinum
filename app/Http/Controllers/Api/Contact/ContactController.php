@@ -36,18 +36,18 @@ class ContactController extends Controller
                     )
         ->where('unique_id',$input['website_code'])
         ->first();
-        $validator = Validator::make($request->all(), [
-            'name' => 'required',
-            'website_code' => 'required',
-            'phone' => 'required',
-            'pickdate' => 'required',
-        ]);
-        if ($validator->fails()) {
-            $messages = $validator->messages();
-            // $errors = implode(' ', $messages->all());
-           // $errors = $messages->all();
-            return $this->apiResponseService->sendValidationErrorResponse('', $messages);
-        }
+        // $validator = Validator::make($request->all(), [
+        //     'name' => 'required',
+        //     'website_code' => 'required',
+        //     'phone' => 'required',
+        //     'pickdate' => 'required',
+        // ]);
+        // if ($validator->fails()) {
+        //     $messages = $validator->messages();
+        //     // $errors = implode(' ', $messages->all());
+        //    // $errors = $messages->all();
+        //     return $this->apiResponseService->sendValidationErrorResponse('', $messages);
+        // }
         $clientIP = $input['ip_address'];
         $pickUpDate =  $input['pickdate'] ?? null;
         $pickupHour = $input['ddl-hr'] ?? '00';
