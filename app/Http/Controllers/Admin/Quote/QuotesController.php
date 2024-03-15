@@ -60,7 +60,7 @@ class QuotesController extends Controller
                     }else if($data->booking->booking_postcode == ''){
                         $pickup_point = $data->booking->booking_pickupPoint;
                     }else if($data->booking->booking_pickupPoint != '' && $data->booking->booking_postcode != ''){
-                        $pickup_point = $data->booking->booking_pickupPoint.','.$data->booking->booking_postcode;
+                        $pickup_point = $data->booking->booking_pickupPoint.'<br>'.$data->booking->booking_postcode;
                     }else{
                         $pickup_point = null;
                     }
@@ -70,8 +70,17 @@ class QuotesController extends Controller
                     return Carbon::createFromFormat('Y-m-d H:i:s', $data->booking->pick_datetime)->format('D d M Y');
                    
                 })
-                ->addColumn('destination', function ($data) {
-                    return $data->booking->destination;
+                ->addColumn('destination_point', function ($data) {
+                    if($data->booking->destination == ''){
+                        $destination_point = $data->booking->destination_postcode;
+                    }else if($data->booking->destination_postcode == ''){
+                        $destination_point = $data->booking->destination;
+                    }else if($data->booking->destination != '' && $data->booking->destination_postcode != ''){
+                        $destination_point = $data->booking->destination.'<br>'.$data->booking->destination_postcode;
+                    }else{
+                        $destination_point = null;
+                    }
+                    return $destination_point;
                    
                 })
                 ->addColumn('action', function($data){
@@ -94,7 +103,7 @@ class QuotesController extends Controller
                     'user_details',
                     'pickup_point',
                     'pickup_datetime',
-                    'destination'
+                    'destination_point'
                 ])
                 ->make(true);
         }
