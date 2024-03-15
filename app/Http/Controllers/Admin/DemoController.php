@@ -211,4 +211,9 @@ class DemoController extends Controller
         Artisan::call('migrate');
         return redirect()->route('admin.dashboard.index')->with('success', 'Migrated Successfully');
     }
+
+    public function multi_image()
+    {
+        return view('backend.demo.images');
+    }
 }

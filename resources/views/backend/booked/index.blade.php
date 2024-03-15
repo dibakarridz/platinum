@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{url('backend/vendor/select2/css/select2.min.css')}}">
     <link href="{{url('backend/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{url('backend/vendor/toastr/css/toastr.min.css')}}">
+    <link rel="stylesheet" href="{{url('backend/css/custom.css')}}">
     @stack('styles')
 @endsection
 

@@ -102,5 +102,4 @@ Route::middleware(['auth'])->group(function () {
     Route::get('vehicle/copy/data','DemoController@vehicle')->name('vehicle.copy.data');
     Route::get('domain/copy/data','DemoController@domain')->name('domain.copy.data');
     Route::get('migrate-update', 'DemoController@migrateUpdate')->name('migrate.update');
-
 });
