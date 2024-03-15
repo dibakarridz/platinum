@@ -19,18 +19,7 @@
         <div class="content-body">
             <div class="container-fluid">
                 <div id="notify">@include('backend.layouts.alerts')</div>
-                <!-- <div class="row ">
-                    <div class="col-sm-6 d-flex align-items-center">
-                        <ol class="breadcrumb m-0">
-                            <li class="breadcrumb-item"><a href="{{ route('admin.dashboard.index') }}">Home</a></li>
-                            <li class="breadcrumb-item active"><a href="javascript:void(0)">Quotes</a></li>
-                        </ol>
-                    </div>
-                    <div class="col-sm-6 d-flex flex-row-reverse align-items-center">
-                        
-                    </div>
-                </div> -->
-                <!-- row -->
+                
 
                 <div class="card mt-4">
                     <div class="row">
@@ -42,7 +31,7 @@
                                         <table id="dataTable" class="table table-striped table-responsive-sm" style="min-width: 845px">
                                             <thead>
                                                 <tr>
-                                                    
+                                                    <th>#</th>
                                                     <th>Quote ID</th>
                                                     <th>User Details</th>
                                                     <th>Pickup Point</th>
@@ -82,6 +71,7 @@
                 ajax: "{{ route('admin.removed.index') }}",
                 
                 columns: [
+                    {data: 'id', name: 'id', visible:false},
                     {data: 'quote_id', name: 'quote_id'},
                     {data: 'user_details', name: 'user_details'},
                     {data: 'pickup_point', name: 'pickup_point'},

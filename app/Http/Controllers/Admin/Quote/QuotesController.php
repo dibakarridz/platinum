@@ -37,11 +37,11 @@ class QuotesController extends Controller
                     'booking_pickupPoint',
                     'booking_postcode',
                     'pick_datetime',
-                    'destination'
+                    'destination',
+                    'destination_postcode'
                 );
             }]);
-            $data = $query->where('status',1)
-                    ->get();
+            $data = $query->where('status',1);
             return Datatables::of($data)->addIndexColumn()
                 ->addColumn('quote_id', function ($data) {
                     return ($data->prefix_quoteid.''.$data->booking->query_id);
@@ -67,20 +67,25 @@ class QuotesController extends Controller
                     return $pickup_point ;
                 })
                 ->addColumn('pickup_datetime', function ($data) {
-                    return Carbon::createFromFormat('Y-m-d H:i:s', $data->booking->pick_datetime)->format('D d M Y');
+                    if($data->booking->pick_datetime !=''){
+                        $pickup_datetime = Carbon::createFromFormat('Y-m-d H:i:s', $data->booking->pick_datetime)->format('D d M Y');
+                    }else{
+                        $pickup_datetime = '';
+                    }
+                    return $pickup_datetime;
                    
                 })
-                ->addColumn('destination_point', function ($data) {
+                ->addColumn('destination', function ($data) {
                     if($data->booking->destination == ''){
-                        $destination_point = $data->booking->destination_postcode;
+                        $destination = $data->booking->destination_postcode;
                     }else if($data->booking->destination_postcode == ''){
-                        $destination_point = $data->booking->destination;
+                        $destination = $data->booking->destination;
                     }else if($data->booking->destination != '' && $data->booking->destination_postcode != ''){
-                        $destination_point = $data->booking->destination.'<br>'.$data->booking->destination_postcode;
+                        $destination = $data->booking->destination.'<br>'.$data->booking->destination_postcode;
                     }else{
-                        $destination_point = null;
+                        $destination = null;
                     }
-                    return $destination_point;
+                    return $destination;
                    
                 })
                 ->addColumn('action', function($data){
@@ -103,7 +108,7 @@ class QuotesController extends Controller
                     'user_details',
                     'pickup_point',
                     'pickup_datetime',
-                    'destination_point'
+                    'destination'
                 ])
                 ->make(true);
         }

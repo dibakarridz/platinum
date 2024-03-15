@@ -35,11 +35,11 @@ class RemoveController extends Controller
                     'booking_pickupPoint',
                     'booking_postcode',
                     'pick_datetime',
-                    'destination'
+                    'destination',
+                    'destination_postcode'
                 );
             }]);
-            $data = $query->onlyTrashed()
-                    ->get();
+            $data = $query->onlyTrashed();
             return Datatables::of($data)->addIndexColumn()
                 ->addColumn('quote_id', function ($data) {
                     return ($data->prefix_quoteid.''.$data->booking->query_id);
@@ -65,11 +65,25 @@ class RemoveController extends Controller
                     return $pickup_point ;
                 })
                 ->addColumn('pickup_datetime', function ($data) {
-                    return Carbon::createFromFormat('Y-m-d H:i:s', $data->booking->pick_datetime)->format('D d M Y');
+                    if($data->booking->pick_datetime !=''){
+                        $pickup_datetime = Carbon::createFromFormat('Y-m-d H:i:s', $data->booking->pick_datetime)->format('D d M Y');
+                    }else{
+                        $pickup_datetime = '';
+                    }
+                    return $pickup_datetime;
                    
                 })
                 ->addColumn('destination', function ($data) {
-                    return $data->booking->destination;
+                    if($data->booking->destination == ''){
+                        $destination = $data->booking->destination_postcode;
+                    }else if($data->booking->destination_postcode == ''){
+                        $destination = $data->booking->destination;
+                    }else if($data->booking->destination != '' && $data->booking->destination_postcode != ''){
+                        $destination = $data->booking->destination.'<br>'.$data->booking->destination_postcode;
+                    }else{
+                        $destination = null;
+                    }
+                    return $destination;
                    
                 })
                 ->addColumn('action', function($data){       
