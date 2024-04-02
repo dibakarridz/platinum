@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="{{url('backend/vendor/select2/css/select2.min.css')}}">
     <link href="{{url('backend/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{url('backend/vendor/toastr/css/toastr.min.css')}}">
+<<<<<<< HEAD
     <link rel="stylesheet" href="{{url('backend/css/custom.css')}}">
+=======
+	<link rel="stylesheet" href="{{url('backend/css/custom.css')}}">
+>>>>>>> cdf5ca0 (design changes issue fixed)
     @stack('styles')
 @endsection
 
@@ -69,21 +73,24 @@
                     [15, 25, 50, -1],
                     [15, 25, 50, 'All']
                 ],
+                columnDefs: [ { orderable: false, targets: [0,1,2,3,4,5]} ],
                 language: {
                         processing: '<div id="resultLoading"><div><i style="font-size: 46px;color: #363062;" class="fa fa-spinner fa-spin fa-2x fa-fw" aria-hidden="true"></i></div><div class="bg"></div></div>'
                     },
                 ajax: "{{ route('admin.quoted.index') }}",
+               
                 
                 columns: [
                     {data: 'id', name: 'id', visible: false },
                     {data: 'quote_id', name: 'quote_id'},
                     {data: 'user_details', name: 'user_details'},
                     {data: 'pickup_point', name: 'pickup_point'},
-                    {data: 'pickup_datetime', name: 'pickup_datetime'},
+                    {data: 'pick_datetime', name: 'pick_datetime'},
                     {data: 'destination', name: 'destination'},
                     {data: 'action', name: 'action', orderable: false, searchable: true}
                 ],
             });
+           
         });
     </script>
     @stack('scripts')

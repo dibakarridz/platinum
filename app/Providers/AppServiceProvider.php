@@ -25,9 +25,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-      
-        //Paginator::defaultView('vendor.pagination.custom');
-        //Paginator::useBootstrap();
-       URL::forceScheme('https');
+       //URL::forceScheme('https');
     }
 }

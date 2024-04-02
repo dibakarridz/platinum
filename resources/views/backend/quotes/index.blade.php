@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="{{url('backend/vendor/select2/css/select2.min.css')}}">
     <link href="{{url('backend/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{url('backend/vendor/toastr/css/toastr.min.css')}}">
+<<<<<<< HEAD
     <link rel="stylesheet" href="{{url('backend/css/custom.css')}}">
+=======
+	<link rel="stylesheet" href="{{url('backend/css/custom.css')}}">
+>>>>>>> cdf5ca0 (design changes issue fixed)
     @stack('styles')
 @endsection
 
@@ -38,7 +42,7 @@
                                 
                                 <div class="card-body">
                                     <div class="">
-                                        <table class="table table-striped table-responsive-sm" id="dataTable" style="min-width: 845px">
+                                        <table class="table table-striped table-responsive-sm" id="dataTable" style="">
                                             <thead>
                                                 <tr>
                                                     <th>#</th>
@@ -82,11 +86,11 @@
                 
                 columns: [
                     {data: 'id', name: 'id', visible:false },
-                    {data: 'quote_id', name: 'quote_id'},
-                    {data: 'user_details', name: 'user_details'},
-                    {data: 'pickup_point', name: 'pickup_point'},
-                    {data: 'pickup_datetime', name: 'pickup_datetime'},
-                    {data: 'destination', name: 'destination'},
+                    {data: 'quote_id', name: 'quote_id', orderable: false},
+                    {data: 'user_details', name: 'user_details', orderable: false},
+                    {data: 'pickup_point', name: 'pickup_point', orderable: false},
+                    {data: 'pickup_datetime', name: 'pickup_datetime', orderable: false},
+                    {data: 'destination', name: 'destination', orderable: false},
                     {data: 'action', name: 'action', orderable: false, searchable: true}
                 ],
                 "order": [[0,'desc']],

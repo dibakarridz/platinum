@@ -13,15 +13,13 @@
             font-size:smaller !important;
         }
         .line-bar {
-            border: 2px solid blue;
+            border: 2px solid #98999b;
             border-radius: .75rem;
             color: rgb(255,255,255,0.25);
           
         }
         .mycontent-left {
-            border-right: 2px solid blue;
-            border-radius: .75rem;
-            color: rgb(255,255,255,0.25);
+            border-right:2px solid #d7dae3;          
         }
     </style>
     @stack('styles')
@@ -309,7 +307,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="box-footer text-center">
+                        <div class="box-footer text-center" style="margin: 20px 0;">
                             <button type="submit" class="btn btn-primary">Save</button>
                         </div>
                     </div>

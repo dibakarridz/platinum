@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="{{url('backend/vendor/select2/css/select2.min.css')}}">
     <link href="{{url('backend/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{url('backend/vendor/toastr/css/toastr.min.css')}}">
+<<<<<<< HEAD
     <link rel="stylesheet" href="{{url('backend/css/custom.css')}}">
+=======
+	<link rel="stylesheet" href="{{url('backend/css/custom.css')}}">
+>>>>>>> cdf5ca0 (design changes issue fixed)
     @stack('styles')
 @endsection
 
@@ -30,7 +34,11 @@
                                         <table id="dataTable" class="table table-striped table-responsive-sm" style="min-width: 845px">
                                             <thead>
                                                 <tr>
+<<<<<<< HEAD
                                                     <th>#</th>
+=======
+													<th>#</th>
+>>>>>>> cdf5ca0 (design changes issue fixed)
                                                     <th>Quote ID</th>
                                                     <th>User Details</th>
                                                     <th>Pickup Point</th>
@@ -40,6 +48,7 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
+												
                                             </tbody>
                                         </table>
                                     </div>
@@ -59,7 +68,7 @@
     <script src="{{url('backend/js/plugins-init/datatables.init.js')}}"></script>
     <script src="{{url('backend/js/loader.js')}}"></script>
     <script>
-        $(function () {
+       $(function () {
             var table = $('#dataTable').DataTable({
                 processing: true,
                 serverSide: true,
@@ -69,6 +78,7 @@
                 ajax: "{{ route('admin.booked.index') }}",
                 
                 columns: [
+<<<<<<< HEAD
                     {data: 'id', name: 'id', visible:false },
                     {data: 'quote_id', name: 'quote_id'},
                     {data: 'user_details', name: 'user_details'},
@@ -76,6 +86,15 @@
                     {data: 'pickup_datetime', name: 'pickup_datetime'},
                     {data: 'destination', name: 'destination'},
                     {data: 'action', name: 'action', orderable: false, searchable: true}
+=======
+                     {data: 'id', name: 'id', visible:false },
+					{data: 'quote_id', name: 'quote_id', orderable: false},
+					{data: 'user_details', name: 'user_details', orderable: false},
+					{data: 'pickup_point', name: 'pickup_point', orderable: false},
+					{data: 'pickup_datetime', name: 'pickup_datetime', orderable: false},
+					{data: 'destination', name: 'destination', orderable: false},
+					{data: 'action', name: 'action', orderable: false, searchable: true}
+>>>>>>> cdf5ca0 (design changes issue fixed)
                 ],
                 "order": [[0,'desc']],
                 "pageLength": 15,

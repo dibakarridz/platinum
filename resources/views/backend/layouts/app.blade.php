@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="font-size:15px !important;">
 <?php $setting = Setting();?>
 <head>
     <meta charset="utf-8">

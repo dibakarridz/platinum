@@ -35,11 +35,11 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="card">
-                                <div class="card-header" style="overflow:auto !important;">
+                                <div class="card-header">
                                     
                                         <div class="col-md-3">
-                                            <div class="form-group">
-                                                <select class="form-control single-select" name ="select_action" id="id_label_single">
+                                            <div class="form-group" style="margin-bottom:0;">
+                                                <select class="form-control select2-width-50" name ="select_action" id="id_label_single">
                                                     <option value="">Select Action</option>
                                                     <option value="1">Restore</option>
                                                     <option value="2">Delete</option>
@@ -49,20 +49,20 @@
                                             
                                         </div>
                                         <div class="col-md-3" style="margin-right: auto;padding-left: 5px;">
-                                            <div class="form-group">
+                                            <div class="form-group" style="margin-bottom:0;">
                                             <button type="button" class="btn btn-rounded btn-primary apply_action">Apply</button>
                                                 
                                             </div>
                                             
                                         </div>
                                         <div class="bootstrap-badge">
-                                            <a href="{{route('admin.users.index')}}" class="badge badge-rounded badge-info" id="activeCount">All ({{$activeCount}})</a>
-                                            <a href="javascript:void(0)" class="badge badge-rounded badge-danger" id="trashedCount">Trashed ({{$trashedCount}})</a>
+                                            <a href="{{route('admin.users.index')}}" class="" id="activeCount">All ({{$activeCount}})</a>
+                                            <a href="javascript:void(0)" class="" id="trashedCount">Trashed ({{$trashedCount}})</a>
                                         </div>
                                 </div>
                                 <div class="card-body" id="refreshData">
                                     <div class="table-responsive">
-                                        <table id="example4" class="table table-striped table-responsive-sm" style="min-width: 845px">
+                                        <table id="dataTable" class="table table-striped table-responsive-sm" style="min-width: 845px">
                                             <thead>
                                                 <tr>
                                                     <th class="checkbox_custom_style text-center">
@@ -144,7 +144,17 @@
     <script src="{{url('backend/js/plugins-init/toastr-init.js')}}"></script>
     <script src="{{url('backend/js/loader.js')}}"></script>
     <script>
-       
+       $(document).ready(function() {
+            var table = $('#dataTable').dataTable({
+                "pageLength": 15,
+                lengthMenu: [
+                    [15, 25, 50, -1],
+                    [15, 25, 50, 'All']
+                ],
+				columnDefs: [ { orderable: false, targets: [0,1,2,3,4,5,6,7] }]
+            });
+            
+        } );
     </script>
     @stack('scripts')
 @endsection

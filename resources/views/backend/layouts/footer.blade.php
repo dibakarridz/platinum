@@ -1,4 +1,4 @@
-<div class="footer">
+<div class="footer" style="padding-left:24.1875rem !important;">
     @php($setting = Setting())
     <div class="">
         <p>{{ $setting->copyright ?? '' }}</p>
@@ -6,7 +6,7 @@
 </div>
 <!-- delete confirm modal -->
     <div class="modal fade" id="deleteConfirm" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="deletemodalTitle" aria-hidden="true">
-            <div class="modal-dialog modal-sm">
+            <div class="modal-dialog modal-sm modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title text-primary" id="deletemodalTitle">Delete Confirmation</h5>
@@ -30,7 +30,7 @@
         </div>
     <!-- restore confirm modal -->
     <div class="modal fade" id="restoreConfirm" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="deletemodalTitle" aria-hidden="true">
-            <div class="modal-dialog modal-sm">
+            <div class="modal-dialog modal-sm modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title text-primary" id="restoremodalTitle">Please Confirm</h5>
@@ -57,7 +57,7 @@
 
         <!-- status change modal -->
         <div class="modal fade" id="statusChange" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
-            <div class="modal-dialog modal-sm">
+            <div class="modal-dialog modal-sm modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title text-primary" id="modalTitle">Status Change</h5>
@@ -82,7 +82,7 @@
 
         <!-- Quotes status change modal -->
         <div class="modal fade" id="QuotesChangeStatus" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
-            <div class="modal-dialog modal-sm">
+            <div class="modal-dialog modal-sm modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title text-primary" id="modalTitle">Status Change</h5>
@@ -108,7 +108,7 @@
 
 <!-- Start modal resend quoted -->
     <div class="modal fade" id="resendConfirm" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
-            <div class="modal-dialog modal-sm">
+            <div class="modal-dialog modal-sm modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title text-primary" id="resendModalTitle">Resend Quotation</h5>

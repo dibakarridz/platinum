@@ -36,6 +36,7 @@ class ContactController extends Controller
                     )
         ->where('unique_id',$input['website_code'])
         ->first();
+<<<<<<< HEAD
         // $validator = Validator::make($request->all(), [
         //     'name' => 'required',
         //     'website_code' => 'required',
@@ -49,6 +50,11 @@ class ContactController extends Controller
         //     return $this->apiResponseService->sendValidationErrorResponse('', $messages);
         // }
         $clientIP = $input['ip_address'];
+=======
+        
+        $clientIP = $input['ip_address'];
+		
+>>>>>>> cdf5ca0 (design changes issue fixed)
         $pickUpDate =  $input['pickdate'] ?? null;
         $pickupHour = $input['ddl-hr'] ?? '00';
         $pickupMin = $input['ddl-minute'] ?? '00';
@@ -68,7 +74,11 @@ class ContactController extends Controller
             $pickUpDateFormat = null;
         }
 
+<<<<<<< HEAD
         if($input['jtype-cl1'] != ''){
+=======
+        if(!empty($input['jtype-cl1'])){
+>>>>>>> cdf5ca0 (design changes issue fixed)
             if($input['jtype-cl1'] == 'Yes'){
                 $booking_return = 'Return';
             }else if($input['jtype-cl1'] == 'No'){
@@ -76,7 +86,11 @@ class ContactController extends Controller
             }else{
                 $booking_return = null;
             }
+<<<<<<< HEAD
         }else if($input['q8_return'] != ''){
+=======
+        }else if(!empty($input['q8_return'])){
+>>>>>>> cdf5ca0 (design changes issue fixed)
             if($input['q8_return'] == 'Yes'){
                 $booking_return = 'Return';
             }else if($input['q8_return'] == 'No'){

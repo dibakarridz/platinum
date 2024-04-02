@@ -8,20 +8,11 @@
     @parent
     <link rel="stylesheet" href="{{url('backend/css/custom.css')}}">
     <style>
-        .line-bar {
-            border: 2px solid blue;
-            border-radius: .75rem;
-            color: rgb(255,255,255,0.25);
-          
-        }
+       
         hr:last-child {
             display: none;
         }
-        .mycontent-left {
-            border-right: 2px solid blue;
-            border-radius: .75rem;
-            color: rgb(255,255,255,0.25);
-        }
+        
         .ck {
             /* height: 300px !important; */
         }

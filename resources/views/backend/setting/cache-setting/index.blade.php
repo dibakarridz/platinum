@@ -93,7 +93,7 @@
             </div>
         </div><!-- /.row -->
     </div>
-</div>
+</div></div></div>
 @endsection
 @section('scripts')
     @parent

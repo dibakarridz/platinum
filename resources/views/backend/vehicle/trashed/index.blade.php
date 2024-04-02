@@ -10,7 +10,11 @@
     <link rel="stylesheet" href="{{url('backend/vendor/select2/css/select2.min.css')}}">
     <link href="{{url('backend/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{url('backend/vendor/toastr/css/toastr.min.css')}}">
+<<<<<<< HEAD
     <link rel="stylesheet" href="{{url('backend/css/custom.css')}}">
+=======
+<link rel="stylesheet" href="{{url('backend/css/custom.css')}}">
+>>>>>>> cdf5ca0 (design changes issue fixed)
     @stack('styles')
 @endsection
 
@@ -35,11 +39,11 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="card">
-                                <div class="card-header" style="overflow:auto !important;">
+                                <div class="card-header">
                                         
                                     <div class="col-md-3">
-                                        <div class="form-group">
-                                            <select class="form-control single-select" name ="select_action" id="id_label_single">
+                                        <div class="form-group" style="margin-bottom:0;">
+                                            <select class="form-control select2-width-50" name ="select_action" id="id_label_single">
                                                 <option value="">Select Action</option>
                                                 <option value="1">Restore</option>
                                                 <option value="2">Delete</option>
@@ -49,15 +53,15 @@
                                         
                                     </div>
                                     <div class="col-md-3" style="margin-right: auto;padding-left: 5px;">
-                                        <div class="form-group">
+                                        <div class="form-group" style="margin-bottom:0;">
                                         <button type="button" class="btn btn-rounded btn-primary apply_action">Apply</button>
                                             
                                         </div>
                                         
                                     </div>
                                     <div class="bootstrap-badge" id="countBadge">
-                                        <a href="{{route('admin.vehicles.index')}}" class="badge badge-rounded badge-info" id="activeCount">All ({{$activeCount}})</a>
-                                        <a href="javascript:void(0)" class="badge badge-rounded badge-danger" id="trashedCount">Trashed ({{$trashedCount}})</a>
+                                        <a href="{{route('admin.vehicles.index')}}" class="" id="activeCount">All ({{$activeCount}})</a>
+                                        <a href="javascript:void(0)" class="" id="trashedCount">Trashed ({{$trashedCount}})</a>
                                     </div>
                                         
                                 </div>
@@ -141,6 +145,7 @@
         $(document).ready(function() {
             $('#dataTable').dataTable({
                 "pageLength": 15,
+				"orderable": false,
                 lengthMenu: [
                     [15, 25, 50, -1],
                     [15, 25, 50, 'All']

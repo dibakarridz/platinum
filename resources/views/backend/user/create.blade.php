@@ -15,28 +15,21 @@
         <div class="container-fluid">
         <div id="notify">@include('backend.layouts.alerts')</div>
         <div class="row ">
-    <div class="col-sm-6 d-flex align-items-center">
-        <ol class="breadcrumb m-0">
-            <li class="breadcrumb-item"><a href="{{ route('admin.dashboard.index') }}">Home</a></li>
-            <li class="breadcrumb-item active"><a href="{{route('admin.users.index')}}">Users</a></li>
-            <li class="breadcrumb-item active"><a href="javascript:void(0)">Add</a></li>
-        </ol>
-    </div>
-    <div class="col-sm-6 d-flex flex-row-reverse align-items-center">
-
-    </div>
-</div>
+			<div class="col-sm-6 d-flex align-items-center">
+				<ol class="breadcrumb m-0">
+					<li class="breadcrumb-item"><a href="{{ route('admin.dashboard.index') }}">Home</a></li>
+					<li class="breadcrumb-item active"><a href="{{route('admin.users.index')}}">Users</a></li>
+					<li class="breadcrumb-item active"><a href="javascript:void(0)">Add</a></li>
+				</ol>
+			</div>
+		</div>
 
 
-<div class="card mt-4">
-    <form class="needs-validation" id="useForm" action="{{route('admin.users.store')}}" method="post" enctype="multipart/form-data" autocomplete="off">
+		<div class="card mt-4">
+			<form class="needs-validation" id="useForm" action="{{route('admin.users.store')}}" method="post" enctype="multipart/form-data" autocomplete="off">
         @csrf
         
         <div class="card-body p-4">
-            <div class="row justify-content-center">
-                
-               
-            </div>
             <div class="row mt-4">
                 <div class="col-md-6">
                     <div class="form-group">
@@ -129,11 +122,13 @@
             </div>
         </div>
     </form>
+		</div>
+	</div>
 </div>
 <!-- password generator modal -->
 
 <div class="modal fade" id="password_generate" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
+    <div class="modal-dialog modal-sm modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title text-primary" id="generatePasswordmodalTitle">Password Generator</h5>

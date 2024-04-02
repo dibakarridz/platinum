@@ -41,7 +41,7 @@
             </div>
             <div class="card mt-4">
                 <div class="row">
-                    <h5 style="margin-left:10px !important;margin-top:10px;!important;">View Quotes({{$query->prefix_quoteid.''.$query->booking->query_id}})</h5>
+                    <h5 style="margin-left:10px !important;margin-top:10px;!important;margin-bottom: 0;">View Quotes({{$query->prefix_quoteid.''.$query->booking->query_id}})</h5>
                     <div class="col-md-6">
                         <hr class="line-bar">
                         <div class="box box-primary">
@@ -213,15 +213,11 @@
                                         <div class="form-group">
                                             <label class="form-label">Quotation Details</label>
                                             <textarea class="form-control" id="quotation_details" name="quotation_details" rows="5">{{old('quotation_details')}}</textarea>
-                                            @error('quotation_details')
-                                                <div class="invalid-feedback" style="display:inline !important;">
-                                                {{ $message }}
-                                                </div>
-                                            @enderror
+                                            
                                         </div>
                                     </div>
                                     <div class="box-footer float-end">
-                                        <button type="submit" class="btn btn-primary">Send Quotation</button>
+                                        <button type="submit" class="btn btn-primary customBtn bg-btn">Send Quotation</button>
                                     </div>
                                 </form>
                             </div>
@@ -263,7 +259,7 @@
                         
                                             </td>
                                             <td>{{$val['quotation_details']}}</td>
-                                            <td>
+                                            <td class="custom-two">
                                                 {{Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $val['datetime'])->format('D d M Y h:i A')}}
                                                
                                                 <br>
@@ -292,12 +288,12 @@
             ignore: [],
             debug: false,
         rules: {
-            quotation_details: {
+            quotation_details_not_needed: {
                 required: true,
             },
         },
         messages: {
-            quotation_details: {
+            quotation_details_not_needed: {
                 required: "This field is required",
             },
         },

@@ -13,8 +13,8 @@
 @section('content')
 	<div class="content-body">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-2 card-box">
+                <div class="all-cardBox">
+                <div class="card-box">
                     <a href="{{route('admin.quotes.index')}}">
                         <div class="card">
                            
@@ -27,7 +27,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xl-2 card-box">
+                <div class="card-box">
                     <a href="{{route('admin.quoted.index')}}">
                         <div class="card">
                             <!-- <div class="card-header"></div> -->
@@ -40,7 +40,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xl-2 card-box">
+                <div class="card-box">
                     <a href="{{route('admin.booked.index')}}">
                         <div class="card">
                             <!-- <div class="card-header"></div> -->
@@ -53,7 +53,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xl-2 card-box">
+                <div class="card-box">
                     <a href="{{route('admin.removed.index')}}">
                         <div class="card">
                             <!-- <div class="card-header"></div> -->
@@ -66,7 +66,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xl-2 card-box">
+                <div class="card-box">
                     <a href="{{route('admin.forwarded.index')}}">
                         <div class="card">
                             <!-- <div class="card-header"></div> -->
@@ -79,9 +79,7 @@
                         </div>
                     </a>
                 </div>
-               
-            </div>
-
+               </div>
             <!-- bar chart -->
             <div class="row">
                 <div class="col-12">

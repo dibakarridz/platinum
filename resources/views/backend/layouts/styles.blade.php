@@ -5,6 +5,9 @@
 <link href="{{url('backend/css/style.css')}}" rel="stylesheet"/>
 <link href="{{url('backend/css/main.css')}}" rel="stylesheet"/>
 <link rel="stylesheet" href="{{url('backend/vendor/select2/css/select2.min.css')}}"/>
+<<<<<<< HEAD
 
+=======
+>>>>>>> cdf5ca0 (design changes issue fixed)
 
                 

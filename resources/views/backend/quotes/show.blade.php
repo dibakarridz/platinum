@@ -17,6 +17,7 @@
         hr:last-child {
             display: none;
         }
+		
     </style>
     @stack('styles')
 @endsection
@@ -34,15 +35,17 @@
                         <li class="breadcrumb-item active"><a href="javascript:void(0)">view</a></li>
                     </ol>
                 </div>
-                <div class="col-sm-6 d-flex flex-row-reverse align-items-center">
+                <div class="col-sm-6 d-flex flex-row-reverse align-items-center viewBtn">
                     
                     <a type="button" href="{{route('admin.quotes.print.view',$query->id)}}" class="btn btn-primary btn-xs" target="_blank"><i class="fas fa-print"></i>&nbsp;Print</a>&nbsp;&nbsp;
                     <a type="button" href="{{route('admin.quotes.edit',['quote' => $query->id])}}" class="btn btn-secondary btn-xs"><i class="fas fa-edit"></i>&nbsp;Edit</a>
                 </div>
             </div>
             <div class="card mt-4">
-                <div class="row">
-                    <h5>View Quotes({{$query->prefix_quoteid.''.$query->booking->query_id}})</h5>
+                <div class="row">	
+					<div class="col-md-12">
+                    <h5 class="vq">View Quotes({{$query->prefix_quoteid.''.$query->booking->query_id}})</h5>
+					</div>
                     <div class="col-md-12">
                         <hr class="line-bar">
                         <div class="box box-primary">
@@ -242,7 +245,7 @@
                                    
                                     <tr>
                                         <td><b> Change Status</b></td>
-                                        <td>
+                                        <td class="changeStatusBtn">
                                             @if($query->status == 1)
                                                 <a class="btn btn-primary btn-xs btn-primary-quoted" data-bs-target="#QuotesChangeStatus"
                                                     href="javascript:void(0);" data-bs-toggle="modal" title="Status" 

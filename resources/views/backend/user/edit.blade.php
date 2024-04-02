@@ -129,11 +129,11 @@
             </div>
         </div>
     </form>
-</div>
+			</div></div></div>
 <!-- password generator modal -->
 
 <div class="modal fade" id="password_generate" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
+    <div class="modal-dialog modal-sm modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title text-primary" id="generatePasswordmodalTitle">Password Generator</h5>

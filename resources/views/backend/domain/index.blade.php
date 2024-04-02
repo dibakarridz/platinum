@@ -28,7 +28,7 @@
                         </ol> -->
                     </div>
                     <div class="col-sm-6 d-flex flex-row-reverse align-items-center">
-                        <a type="button" href="{{ route('admin.domains.create') }}" class="btn btn-primary btn-xs">Add New</a>
+                        <a type="button" href="{{ route('admin.domains.create') }}" class="btn btn-rounded btn-primary">Add New</a>
                     </div>
                 </div>
                 <!-- row -->
@@ -37,10 +37,10 @@
                         <div class="row mt-4">
                             <div class="col-12">
                                 <div class="card">
-                                    <div class="card-header" style="overflow:auto !important;">
+                                    <div class="card-header">
                                             
                                         <div class="col-md-3">
-                                            <div class="form-group">
+                                            <div class="form-group" style="margin-bottom:0;">
                                                 <select class="form-control select2-width-50" name ="select_action" id="select2-width-50">
                                                     <option value="">Select Action</option>
                                                     <option value="1">Move To Trashed</option>
@@ -51,19 +51,23 @@
                                             
                                         </div>
                                         <div class="col-md-3" style="margin-right: auto;padding-left: 5px;">
-                                            <div class="form-group">
+                                            <div class="form-group" style="margin-bottom:0;">
                                             <button type="button" class="btn btn-rounded btn-primary apply_action">Apply</button>
                                                 
                                             </div>
                                             
                                         </div>
                                         <div class="bootstrap-badge" id="countBadge">
-                                            <a href="{{route('admin.domains.index')}}" class="badge badge-rounded badge-info" id="activeCount">All ({{$activeCount}})</a>
-                                            <a href="{{route('admin.domain.trashed.index')}}" class="badge badge-rounded badge-danger" id="trashedCount">Trashed ({{$trashedCount}})</a>
+                                            <a href="{{route('admin.domains.index')}}" class="" id="activeCount">All ({{$activeCount}})</a>
+                                            <a href="{{route('admin.domain.trashed.index')}}" class="" id="trashedCount">Trashed ({{$trashedCount}})</a>
                                         </div>
                                             
                                     </div>
+<<<<<<< HEAD
                                     <div class="card-body" id="domain_table">
+=======
+                                    <div class="card-body" id="">
+>>>>>>> cdf5ca0 (design changes issue fixed)
                                             <table id="dataTable" class="table table-striped table-responsive-sm" style="min-width: 845px">
                                                 <thead>
                                                     <tr>
@@ -123,6 +127,7 @@
                                                     @endforeach
                                                 </tbody>
                                             </table>
+<<<<<<< HEAD
                                             <div class="col-sm-12 d-flex flex-row-reverse align-items-center">
                                                 <nav class="d-flex">
                                                     <ul class="pagination pagination-sm pagination-gutter">
@@ -142,6 +147,9 @@
                                                     </ul>
                                                 </nav>
                                             </div>
+=======
+                                            
+>>>>>>> cdf5ca0 (design changes issue fixed)
                                             
                                     </div>
                                 </div>
