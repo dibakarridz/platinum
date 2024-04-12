@@ -40,14 +40,8 @@
     border-bottom: 2px solid rgba(0, 0, 0, 0.25) !important;
 }
 .card-body {
-<<<<<<< HEAD
-    padding: .500rem !important;
-	background: #efefef !important;
-	
-=======
     padding: 0.5rem !important;
     background: #efefef !important;
->>>>>>> cdf5ca0 (design changes issue fixed)
 }
 .card-footer {
     padding: 0.5rem 0.5rem 0.5rem !important;
@@ -114,33 +108,6 @@
     background-color: #ff0000 !important;
 }
 
-<<<<<<< HEAD
-  .apply-btn-primary {
-    margin-left: inherit !important;
-  }
-  .bootstrap-badge{
-    margin-right: 5px !important;
-  }
-  
-  .select-status{
-    margin-left: -70px !important;
-  }
-
-  .page-item.disabled{
-    cursor: not-allowed !important;
-  }
-  .page-link.disabled{
-    cursor: not-allowed !important;
-  }
-  .text-red{
-    color: #FF0000 !important;
-  }
- .nav-header .logo-abbr {
-		width: 155px !important;
-		height:76px !important;
-}
-
-=======
 .apply-btn-primary {
     margin-left: inherit !important;
 }
@@ -169,4 +136,3 @@
 .content-body .all-cardBox .card-body {
         font-weight: 600;
 }
->>>>>>> cdf5ca0 (design changes issue fixed)

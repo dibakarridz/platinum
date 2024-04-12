@@ -45,11 +45,7 @@ class ForwardController extends Controller
 					'destination_postcode'
                 );
             }]);
-<<<<<<< HEAD
-            $data = $query->where('status',3);
-=======
             $data = $query->where('status',3)->latest('id');
->>>>>>> cdf5ca0 (design changes issue fixed)
             return Datatables::of($data)->addIndexColumn()
 				->filterColumn('user_details', function($query, $keyword) {
                     $sql = "CONCAT(queries.full_name,'-',queries.email,'-',queries.phone,'-',queries.mobile)  like ?";
@@ -100,34 +96,15 @@ class ForwardController extends Controller
                 })
                 ->addColumn('pickup_datetime', function ($data) {
                     if($data->booking->pick_datetime !=''){
-<<<<<<< HEAD
-                        $pickup_datetime = Carbon::createFromFormat('Y-m-d H:i:s', $data->booking->pick_datetime)->format('D d M Y');
-                    }else{
-                        $pickup_datetime = '';
-                    }
-                    return $pickup_datetime;
-=======
                     	$pickup_datetime = Carbon::createFromFormat('Y-m-d H:i:s', $data->booking->pick_datetime)->format('D d M Y');
 					}else{
 						$pickup_datetime = '';
 					}
 					return $pickup_datetime;
->>>>>>> cdf5ca0 (design changes issue fixed)
                    
                 })
                 ->addColumn('destination', function ($data) {
                     if($data->booking->destination == ''){
-<<<<<<< HEAD
-                        $destination = $data->booking->destination_postcode;
-                    }else if($data->booking->destination_postcode == ''){
-                        $destination = $data->booking->destination;
-                    }else if($data->booking->destination != '' && $data->booking->destination_postcode != ''){
-                        $destination = $data->booking->destination.'<br>'.$data->booking->destination_postcode;
-                    }else{
-                        $destination = null;
-                    }
-                    return $destination;
-=======
                         $destination_point = $data->booking->destination_postcode;
                     }else if($data->booking->destination_postcode == ''){
                         $destination_point = $data->booking->destination;
@@ -137,7 +114,6 @@ class ForwardController extends Controller
                         $destination_point = null;
                     }
                     return $destination_point;
->>>>>>> cdf5ca0 (design changes issue fixed)
                    
                 })
                 ->addColumn('action', function($data){

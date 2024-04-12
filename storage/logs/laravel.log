@@ -3698,7 +3698,47 @@ Stack trace:
 [2024-04-02 05:11:51] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
 [2024-04-02 07:16:55] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
 [2024-04-02 07:30:08] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
-[2024-04-02 11:34:23] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
+[2024-04-02 12:26:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-02 12:27:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-02 12:28:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-02 12:29:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-02 12:30:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-02 12:31:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-02 12:32:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-02 12:33:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-02 12:34:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-02 12:35:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-02 14:41:13] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -3714,7 +3754,7 @@ Stack trace:
 #11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #12 {main}
 "} 
-[2024-04-02 11:34:25] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
+[2024-04-02 14:41:16] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -3730,7 +3770,7 @@ Stack trace:
 #11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #12 {main}
 "} 
-[2024-04-02 11:34:29] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
+[2024-04-02 14:41:19] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -3746,7 +3786,8 @@ Stack trace:
 #11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #12 {main}
 "} 
-[2024-04-02 11:38:05] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
+[2024-04-06 18:13:56] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
+[2024-04-12 05:35:55] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -3762,7 +3803,7 @@ Stack trace:
 #11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #12 {main}
 "} 
-[2024-04-02 11:38:09] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
+[2024-04-12 05:35:58] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -3778,7 +3819,7 @@ Stack trace:
 #11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #12 {main}
 "} 
-[2024-04-02 11:38:12] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
+[2024-04-12 05:36:01] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -3794,256 +3835,43 @@ Stack trace:
 #11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #12 {main}
 "} 
-[2024-04-02 11:39:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-12 05:53:27] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-02 11:39:40] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-12 05:53:28] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-02 11:40:36] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
-[2024-04-02 11:40:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-12 05:54:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-02 11:41:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-12 05:55:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-02 11:42:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-12 05:56:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-02 11:43:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-12 05:57:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-02 11:44:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-12 05:58:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-02 11:45:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-12 05:59:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-02 11:46:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-12 06:00:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-02 11:47:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 11:48:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 11:49:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 11:50:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 11:51:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 11:52:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 11:53:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 11:54:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 11:55:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 11:56:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 11:57:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-<<<<<<< HEAD
-[2024-04-02 12:08:15] local.ERROR: syntax error, unexpected token "<<" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"<<\" at /opt/lampp/htdocs/platinum/app/Providers/AppServiceProvider.php:29)
-[stacktrace]
-#0 /opt/lampp/htdocs/platinum/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
-#1 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(750): Composer\\Autoload\\ClassLoader->loadClass()
-#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(684): Illuminate\\Foundation\\Application->resolveProvider()
-#3 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register()
-#4 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(664): Illuminate\\Foundation\\ProviderRepository->load()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
-#6 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(242): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
-#7 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith()
-#8 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
-#9 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
-#10 {main}
-"} 
-[2024-04-02 12:08:15] local.ERROR: syntax error, unexpected token "<<" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"<<\" at /opt/lampp/htdocs/platinum/app/Providers/AppServiceProvider.php:29)
-[stacktrace]
-#0 /opt/lampp/htdocs/platinum/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
-#1 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(750): Composer\\Autoload\\ClassLoader->loadClass()
-#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(684): Illuminate\\Foundation\\Application->resolveProvider()
-#3 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register()
-#4 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(664): Illuminate\\Foundation\\ProviderRepository->load()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
-#6 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(242): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
-#7 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith()
-#8 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
-#9 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
-#10 {main}
-"} 
-[2024-04-02 12:08:18] local.ERROR: syntax error, unexpected token "<<" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"<<\" at /opt/lampp/htdocs/platinum/app/Providers/AppServiceProvider.php:29)
-[stacktrace]
-#0 /opt/lampp/htdocs/platinum/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
-#1 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(750): Composer\\Autoload\\ClassLoader->loadClass()
-#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(684): Illuminate\\Foundation\\Application->resolveProvider()
-#3 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register()
-#4 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(664): Illuminate\\Foundation\\ProviderRepository->load()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
-#6 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(242): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
-#7 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith()
-#8 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
-#9 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
-#10 {main}
-"} 
-[2024-04-02 12:08:18] local.ERROR: syntax error, unexpected token "<<" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"<<\" at /opt/lampp/htdocs/platinum/app/Providers/AppServiceProvider.php:29)
-[stacktrace]
-#0 /opt/lampp/htdocs/platinum/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
-#1 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(750): Composer\\Autoload\\ClassLoader->loadClass()
-#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(684): Illuminate\\Foundation\\Application->resolveProvider()
-#3 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register()
-#4 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(664): Illuminate\\Foundation\\ProviderRepository->load()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
-#6 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(242): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
-#7 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith()
-#8 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
-#9 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
-#10 {main}
-"} 
-[2024-04-02 12:08:19] local.ERROR: Uncaught ReflectionException: Class "translator" does not exist in /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
-Stack trace:
-#0 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
-#1 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
-#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
-#3 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
-#4 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
-#6 Command line code(1): app()
-#7 {main}
-
-Next Illuminate\Contracts\Container\BindingResolutionException: Target class [translator] does not exist. in /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
-Stack trace:
-#0 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build()
-#1 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve()
-#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve()
-#3 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make()
-#4 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\Foundation\Application->make()
-#5 Command line code(1): app()
-#6 {main}
-  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught ReflectionException: Class \"translator\" does not exist in /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
-Stack trace:
-#0 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct()
-#1 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\\Container\\Container->build()
-#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\\Container\\Container->resolve()
-#3 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\\Foundation\\Application->resolve()
-#4 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\\Container\\Container->make()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\\Foundation\\Application->make()
-#6 Command line code(1): app()
-#7 {main}
-
-Next Illuminate\\Contracts\\Container\\BindingResolutionException: Target class [translator] does not exist. in /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php:891
-Stack trace:
-#0 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\\Container\\Container->build()
-#1 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\\Container\\Container->resolve()
-#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\\Foundation\\Application->resolve()
-#3 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\\Container\\Container->make()
-#4 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(120): Illuminate\\Foundation\\Application->make()
-#5 Command line code(1): app()
-#6 {main}
-  thrown at /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Container/Container.php:891)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:08:39] local.ERROR: syntax error, unexpected token "<<" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"<<\" at /opt/lampp/htdocs/platinum/app/Providers/AppServiceProvider.php:29)
-[stacktrace]
-#0 /opt/lampp/htdocs/platinum/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
-#1 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(750): Composer\\Autoload\\ClassLoader->loadClass()
-#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(684): Illuminate\\Foundation\\Application->resolveProvider()
-#3 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register()
-#4 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(664): Illuminate\\Foundation\\ProviderRepository->load()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
-#6 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(242): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
-#7 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith()
-#8 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
-#9 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
-#10 {main}
-"} 
-[2024-04-02 12:08:39] local.ERROR: syntax error, unexpected token "<<" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"<<\" at /opt/lampp/htdocs/platinum/app/Providers/AppServiceProvider.php:29)
-[stacktrace]
-#0 /opt/lampp/htdocs/platinum/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
-#1 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(750): Composer\\Autoload\\ClassLoader->loadClass()
-#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(684): Illuminate\\Foundation\\Application->resolveProvider()
-#3 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(75): Illuminate\\Foundation\\Application->register()
-#4 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(664): Illuminate\\Foundation\\ProviderRepository->load()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
-#6 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(242): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap()
-#7 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(383): Illuminate\\Foundation\\Application->bootstrapWith()
-#8 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(153): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
-#9 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle()
-#10 {main}
-"} 
-[2024-04-02 12:08:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:09:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-=======
-[2024-04-02 11:58:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 11:59:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:00:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:01:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:02:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:03:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:04:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
->>>>>>> 2d4edc9 (git error solved)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:10:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:11:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-12 06:01:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 

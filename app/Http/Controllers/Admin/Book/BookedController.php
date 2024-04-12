@@ -36,19 +36,12 @@ class BookedController extends Controller
                     'booking_pickupPoint',
                     'booking_postcode',
                     'pick_datetime',
-<<<<<<< HEAD
-=======
                     DB::raw("CONCAT(bookings.destination,'-',bookings.destination_postcode) as destination"),
->>>>>>> cdf5ca0 (design changes issue fixed)
                     'destination',
                     'destination_postcode'
                 );
             }]);
-<<<<<<< HEAD
-            $data = $query->where('status',4);
-=======
             $data = $query->where('status',4)->latest('id');
->>>>>>> cdf5ca0 (design changes issue fixed)
             return Datatables::of($data)->addIndexColumn()
                 ->filterColumn('user_details', function($query, $keyword) {
                     $sql = "CONCAT(queries.full_name,'-',queries.email,'-',queries.phone,'-',queries.mobile)  like ?";

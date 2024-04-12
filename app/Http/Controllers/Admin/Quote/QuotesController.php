@@ -38,20 +38,12 @@ class QuotesController extends Controller
                     'booking_pickupPoint',
                     'booking_postcode',
                     'pick_datetime',
-<<<<<<< HEAD
-                    'destination',
-                    'destination_postcode'
-                );
-            }]);
-            $data = $query->where('status',1);
-=======
 					DB::raw("CONCAT(bookings.destination,'-',bookings.destination_postcode) as destination"),
                     'destination',
 					'destination_postcode'
                 );
             }]);
             $data = $query->where('status',1)->latest('id');
->>>>>>> cdf5ca0 (design changes issue fixed)
             return Datatables::of($data)->addIndexColumn()
 				->filterColumn('user_details', function($query, $keyword) {
                     $sql = "CONCAT(queries.full_name,'-',queries.email,'-',queries.phone,'-',queries.mobile)  like ?";
@@ -102,18 +94,6 @@ class QuotesController extends Controller
                     return $pickup_point ;
                 })
                 ->addColumn('pickup_datetime', function ($data) {
-<<<<<<< HEAD
-                    if($data->booking->pick_datetime !=''){
-                        $pickup_datetime = Carbon::createFromFormat('Y-m-d H:i:s', $data->booking->pick_datetime)->format('D d M Y');
-                    }else{
-                        $pickup_datetime = '';
-                    }
-                    return $pickup_datetime;
-                   
-                })
-                ->addColumn('destination', function ($data) {
-                    if($data->booking->destination == ''){
-=======
 					if($data->booking->pick_datetime !=''){
                     	$pickup_datetime = Carbon::createFromFormat('Y-m-d H:i:s', $data->booking->pick_datetime)->format('D d M Y');
 					}else{
@@ -124,7 +104,6 @@ class QuotesController extends Controller
                 })
                 ->addColumn('destination', function ($data) {
                   if($data->booking->destination == ''){
->>>>>>> cdf5ca0 (design changes issue fixed)
                         $destination = $data->booking->destination_postcode;
                     }else if($data->booking->destination_postcode == ''){
                         $destination = $data->booking->destination;

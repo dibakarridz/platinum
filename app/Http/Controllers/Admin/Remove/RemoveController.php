@@ -36,14 +36,6 @@ class RemoveController extends Controller
                     'booking_pickupPoint',
                     'booking_postcode',
                     'pick_datetime',
-<<<<<<< HEAD
-                    'destination',
-                    'destination_postcode'
-                );
-            }]);
-            $data = $query->onlyTrashed();
-            return Datatables::of($data)->addIndexColumn()
-=======
 					DB::raw("CONCAT(bookings.destination,'-',bookings.destination_postcode) as destination"),
                     'destination',
 					'destination_postcode'
@@ -67,7 +59,6 @@ class RemoveController extends Controller
                         $query->whereRaw($sql, ["%{$keyword}%"]);
                     });
                 })
->>>>>>> cdf5ca0 (design changes issue fixed)
                 ->addColumn('quote_id', function ($data) {
                     return ($data->prefix_quoteid.''.$data->booking->query_id);
                 })

@@ -279,59 +279,6 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-<<<<<<< HEAD
-  --bs-blue: #5e72e4;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #e83e8c;
-  --bs-red: #EE3232;
-  --bs-orange: #ff9900;
-  --bs-yellow: #FFFA6F;
-  --bs-green: #297F00;
-  --bs-teal: #20c997;
-  --bs-cyan: #3065D0;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
-  --bs-gray-100: #f8f9fa;
-  --bs-gray-200: #e9ecef;
-  --bs-gray-300: #dee2e6;
-  --bs-gray-400: #ced4da;
-  --bs-gray-500: #adb5bd;
-  --bs-gray-600: #6c757d;
-  --bs-gray-700: #495057;
-  --bs-gray-800: #343a40;
-  --bs-gray-900: #212529;
-  --bs-primary: #363062;
-  --bs-secondary: #AC4CBC;
-  --bs-success: #68CF29;
-  --bs-info: #3A82EF;
-  --bs-warning: #FFAB2D;
-  --bs-danger: #f72b50;
-  --bs-light: #c8c8c8;
-  --bs-dark: #6e6e6e;
-  --bs-primary-rgb: 54, 48, 98;
-  --bs-secondary-rgb: 172, 76, 188;
-  --bs-success-rgb: 104, 207, 41;
-  --bs-info-rgb: 58, 130, 239;
-  --bs-warning-rgb: 255, 171, 45;
-  --bs-danger-rgb: 247, 43, 80;
-  --bs-light-rgb: 200, 200, 200;
-  --bs-dark-rgb: 110, 110, 110;
-  --bs-white-rgb: 255, 255, 255;
-  --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 126, 126, 126;
-  --bs-body-bg-rgb: 239, 239, 239;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Roboto, sans-serif;
-  --bs-body-font-size: 15px !important;
-  --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
-  --bs-body-color: #7e7e7e;
-  --bs-body-bg: #efefef; }
-=======
     --bs-blue: #5e72e4;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
@@ -392,7 +339,6 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     --bs-body-color: #7e7e7e;
     --bs-body-bg: #efefef;
 }
->>>>>>> cdf5ca0 (design changes issue fixed)
 
 *,
 *::before,
@@ -12716,31 +12662,6 @@ svg.pulse-svg .third-circle {
 }
 @media only screen and (max-width: 1400px) {
     .header-right .header-profile > a.nav-link .header-info {
-<<<<<<< HEAD
-      padding-left: 20px;
-      text-align: left; }
-      @media only screen and (max-width: 1400px) {
-        .header-right .header-profile > a.nav-link .header-info {
-          padding-left: 10px; } }
-      @media only screen and (max-width: 575px) {
-        .header-right .header-profile > a.nav-link .header-info {
-          display: none; } }
-      .header-right .header-profile > a.nav-link .header-info span {
-        font-size: 15px;
-        color: #000;
-        display: block;
-        font-weight: 600; }
-      .header-right .header-profile > a.nav-link .header-info strong {
-        color: #6e6e6e; }
-      .header-right .header-profile > a.nav-link .header-info small, .header-right .header-profile > a.nav-link .header-info .small {
-        display: block;
-        font-size: 13px;
-        color: #89879f;
-        font-weight: 400;
-        line-height: 1.2; }
-    @media only screen and (max-width: 1400px) {
-      .header-right .header-profile > a.nav-link {
-=======
         padding-left: 10px;
     }
 }
@@ -12768,7 +12689,6 @@ svg.pulse-svg .third-circle {
 }
 @media only screen and (max-width: 1400px) {
     .header-right .header-profile > a.nav-link {
->>>>>>> cdf5ca0 (design changes issue fixed)
         margin-left: 10px;
         padding-left: 20px;
     }
@@ -16240,90 +16160,6 @@ html[dir="rtl"]
 .deznav .metismenu {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-    padding-top:20px; }
-    .deznav .metismenu.fixed {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      left: 0; }
-    .deznav .metismenu > li {
-      display: flex;
-      flex-direction: column; }
-      .deznav .metismenu > li a > i {
-        font-size: 1.2rem;
-        display: inline-block;
-        vertical-align: middle;
-        padding: 0 1.5rem 0 0;
-        position: relative;
-        top: 0;
-        line-height: 1; }
-        [data-sidebar-style="compact"] .deznav .metismenu > li a > i {
-          display: block;
-          padding: 0;
-          background: #ebe9f4;
-          color: #363062;
-          width: 55px;
-          height: 55px;
-          border-radius: 12px;
-          line-height: 55px;
-          margin-left: auto;
-          margin-right: auto;
-          margin-bottom: 5px; }
-          [data-sidebar-style="compact"] .deznav .metismenu > li a > i[data-theme-version="dark"] {
-            color: #fff; }
-        @media only screen and (max-width: 1350px) {
-          .deznav .metismenu > li a > i {
-            padding: 0 .75rem 0 0;
-            font-size: 1.2rem;
-            color: #969BA0; } }
-      .deznav .metismenu > li > a {
-        font-weight: 400;
-        display: inline-block;
-        font-size: 15px;
-        color: #969BA0; }
-        .deznav .metismenu > li > a i {
-          color: #969BA0; }
-        .deznav .metismenu > li > a svg {
-          max-width: 24px;
-          max-height: 24px;
-          height: 100%;
-          margin-right: 5px;
-          margin-top: -3px;
-          color: #363062; }
-        .deznav .metismenu > li > a g [fill] {
-          fill: #8088a1; }
-      .deznav .metismenu > li:hover > a, .deznav .metismenu > li:focus > a {
-        color: #363062; }
-        .deznav .metismenu > li:hover > a g [fill], .deznav .metismenu > li:focus > a g [fill] {
-          fill: #363062; }
-      .deznav .metismenu > li.mm-active > a {
-        background: #363062;
-        color: #fff !important;
-        font-weight: 600;
-        box-shadow: none; }
-        .deznav .metismenu > li.mm-active > a i {
-          color: #fff;
-          font-weight: 100; }
-        .deznav .metismenu > li.mm-active > a g [fill] {
-          fill: #363062; }
-      [data-sidebar-style="compact"] .deznav .metismenu > li.mm-active > a i {
-        background: #363062;
-        color: #fff;
-        box-shadow: 0 12px 15px 0 rgba(54, 48, 98, 0.13); }
-    .deznav .metismenu li {
-      position: relative; }
-    .deznav .metismenu ul {
-      transition: all .2s ease-in-out;
-      position: relative;
-      z-index: 1;
-      padding: 0.5rem 0; }
-      .deznav .metismenu ul a {
-        padding-top: .5rem;
-        padding-bottom: .5rem;
-        position: relative;
-        font-size: 15px;
-=======
     padding-top: 20px;
 }
 .deznav .metismenu.fixed {
@@ -16462,7 +16298,6 @@ html[dir="rtl"]
 }
 @media only screen and (max-width: 1350px) {
     [data-sidebar-style="full"] .deznav .metismenu ul a:hover {
->>>>>>> cdf5ca0 (design changes issue fixed)
         padding-left: 4.5rem;
     }
 }
@@ -17176,13 +17011,6 @@ The smaller device rules always should write below the bigger device rules
 Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Component
 */
 [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li {
-<<<<<<< HEAD
-  padding: 0 30px; }
-  [data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li > a {
-    font-size: 15px;
-    padding: 10px 10px;
-    border-radius: 0.75rem;
-=======
     padding: 0 30px;
 }
 [data-sidebar-style="full"][data-layout="vertical"]
@@ -17193,7 +17021,6 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     font-size: 15px;
     padding: 10px 10px;
     /* border-radius: 0.75rem; */
->>>>>>> cdf5ca0 (design changes issue fixed)
     -webkit-transition: all 0.5s;
     -ms-transition: all 0.5s;
     transition: all 0.5s;

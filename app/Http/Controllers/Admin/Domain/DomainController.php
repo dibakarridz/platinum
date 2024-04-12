@@ -17,12 +17,8 @@ class DomainController extends Controller
     
     public function index()
     {
-<<<<<<< HEAD
-        $domains = Domain::latest()->paginate(10);
-=======
 		
         $domains = Domain::latest()->get();
->>>>>>> cdf5ca0 (design changes issue fixed)
         $activeCount = count($domains);
         $trashedCount = Domain::onlyTrashed()->count();
         return view('backend.domain.index', compact(
