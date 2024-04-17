@@ -14,7 +14,8 @@ use App\Models\Vehicle;
 use App\Models\Domain;
 use App\Models\Quoted;
 use Carbon\Carbon;
-use DataTables,Auth,DB;
+use Illuminate\Support\Facades\DB;
+use Yajra\DataTables\Facades\DataTables;
 
 class QuotedController extends Controller
 {
@@ -24,7 +25,7 @@ class QuotedController extends Controller
             $query = Query::select(
                 'id',
                 'prefix_quoteid',
-				DB::raw("CONCAT(queries.full_name,'-',queries.email,'-',queries.phone,'-',queries.mobile) as user_details"),
+				//DB::raw("CONCAT(queries.full_name,' ',queries.email,' ',queries.phone,' ',queries.mobile) as user_details"),
                 'full_name',
                 'email',
                 'phone',
@@ -36,33 +37,48 @@ class QuotedController extends Controller
                 return $query->select(
                     'id',
                     'query_id',
-					DB::raw("CONCAT(bookings.booking_pickupPoint,'-',bookings.booking_postcode) as pickup_point"),
+					//DB::raw("CONCAT(bookings.booking_pickupPoint,'-',bookings.booking_postcode) as pickup_point"),
                     'booking_pickupPoint',
                     'booking_postcode',
                     'pick_datetime',
-					DB::raw("CONCAT(bookings.destination,'-',bookings.destination_postcode) as destination"),
+					//DB::raw("CONCAT(bookings.destination,'-',bookings.destination_postcode) as destination"),
                     'destination',
 					'destination_postcode'
                 );
             }]);
             $data = $query->where('status',2)->latest('id');
 		return DataTables::of($data)->addIndexColumn()
-                ->filterColumn('user_details', function($query, $keyword) {
-                    $sql = "CONCAT(queries.full_name,'-',queries.email,'-',queries.phone,'-',queries.mobile)  like ?";
-                    $query->whereRaw($sql, ["%{$keyword}%"]);
+        
+                // ->filterColumn('user_details', function($query, $keyword) {
+                //     $query->where(DB::raw('CONCAT(" ",queries.full_name,queries.email,queries.phone,queries.mobile)'), 'like', '%' . $keyword . '%');
+                   
+                // })
+                ->filter(function ($instance) use ($request) {
+                   
+                    if (!empty($request['search']['value'])) {
+                        $search = $request['search']['value'];
+                         $instance->where(function($query) use($search){
+                            $query->orWhere('email', 'LIKE', "%{$search}%")
+                            ->orWhere('full_name', 'LIKE', "%{$search}%")
+                            ->orWhere('id', 'LIKE', "%{$search}%")
+                            ->orWhere('mobile', 'LIKE', "%{$search}%")
+                            ->orWhere('prefix_quoteid', 'LIKE', "%{$search}%")
+                            ->orWhere('phone', 'LIKE', "%{$search}%");
+                        });
+                    }
                 })
-                ->filterColumn('pickup_point', function($query, $keyword) {
-                    $query->whereHas('booking', function($query) use ($keyword){
-                        $sql = "CONCAT(bookings.booking_pickupPoint,'-',bookings.booking_postcode)  like ?";
-                        $query->whereRaw($sql, ["%{$keyword}%"]);
-                    });
-                })
-                ->filterColumn('destination', function($query, $keyword) {
-                    $query->whereHas('booking', function($query) use ($keyword){
-                        $sql = "CONCAT(bookings.destination,'-',bookings.destination_postcode)  like ?";
-                        $query->whereRaw($sql, ["%{$keyword}%"]);
-                    });
-                })
+                // ->filterColumn('pickup_point', function($query, $keyword) {
+                //     $query->whereHas('booking', function($query) use ($keyword){
+                //         $sql = "CONCAT(bookings.booking_pickupPoint,'-',bookings.booking_postcode)  like ?";
+                //         $query->whereRaw($sql, ["%{$keyword}%"]);
+                //     });
+                // })
+                // ->filterColumn('destination', function($query, $keyword) {
+                //     $query->whereHas('booking', function($query) use ($keyword){
+                //         $sql = "CONCAT(bookings.destination,'-',bookings.destination_postcode)  like ?";
+                //         $query->whereRaw($sql, ["%{$keyword}%"]);
+                //     });
+                // })
                 ->addColumn('quote_id', function ($data) {
                     return ($data->prefix_quoteid.''.$data->booking->query_id);
                 })

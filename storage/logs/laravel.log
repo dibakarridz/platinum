@@ -3698,47 +3698,23 @@ Stack trace:
 [2024-04-02 05:11:51] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
 [2024-04-02 07:16:55] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
 [2024-04-02 07:30:08] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
-[2024-04-02 12:26:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:27:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:28:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:29:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:30:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:31:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:32:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:33:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:34:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 12:35:39] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
-[stacktrace]
-#0 {main}
-"} 
-[2024-04-02 14:41:13] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
+[2024-04-04 12:04:33] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
+[2024-04-04 15:18:41] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
+[2024-04-06 11:43:45] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
+[2024-04-06 11:44:33] local.INFO: User logout successful.  
+[2024-04-06 11:44:38] local.INFO: User login successful. {"id":14,"name":"Qaiser","username":"kaisneuron@googlemail.com"} 
+[2024-04-06 11:46:44] local.INFO: User logout successful.  
+[2024-04-06 11:46:46] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
+[2024-04-08 09:24:14] local.INFO: User login successful. {"id":14,"name":"Qaiser","username":"kaisneuron@googlemail.com"} 
+[2024-04-08 10:52:32] local.INFO: User logout successful.  
+[2024-04-08 10:52:48] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
+[2024-04-08 11:28:22] local.INFO: User login successful. {"id":14,"name":"Qaiser","username":"kaisneuron@googlemail.com"} 
+[2024-04-10 04:53:46] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
+[2024-04-12 06:08:10] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
+[2024-04-15 12:52:50] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
+[2024-04-15 18:55:57] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
+[2024-04-17 16:18:24] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
+[2024-04-17 18:19:02] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -3754,7 +3730,7 @@ Stack trace:
 #11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #12 {main}
 "} 
-[2024-04-02 14:41:16] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
+[2024-04-17 18:19:04] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -3770,7 +3746,7 @@ Stack trace:
 #11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #12 {main}
 "} 
-[2024-04-02 14:41:19] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
+[2024-04-17 18:19:08] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
 [stacktrace]
 #0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
 #1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
@@ -3786,217 +3762,746 @@ Stack trace:
 #11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #12 {main}
 "} 
-[2024-04-06 18:13:56] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
-[2024-04-12 05:35:55] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
-[stacktrace]
-#0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
-#1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
-#2 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
-#3 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
-#4 /opt/lampp/htdocs/platinum/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Console/Command.php(152): Symfony\\Component\\Console\\Command\\Command->run()
-#6 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(1078): Illuminate\\Console\\Command->run()
-#7 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
-#8 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
-#9 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
-#10 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run()
-#11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
-#12 {main}
-"} 
-[2024-04-12 05:35:58] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
-[stacktrace]
-#0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
-#1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
-#2 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
-#3 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
-#4 /opt/lampp/htdocs/platinum/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Console/Command.php(152): Symfony\\Component\\Console\\Command\\Command->run()
-#6 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(1078): Illuminate\\Console\\Command->run()
-#7 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
-#8 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
-#9 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
-#10 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run()
-#11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
-#12 {main}
-"} 
-[2024-04-12 05:36:01] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
-[stacktrace]
-#0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
-#1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
-#2 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
-#3 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
-#4 /opt/lampp/htdocs/platinum/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Console/Command.php(152): Symfony\\Component\\Console\\Command\\Command->run()
-#6 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(1078): Illuminate\\Console\\Command->run()
-#7 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
-#8 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
-#9 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
-#10 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run()
-#11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
-#12 {main}
-"} 
-[2024-04-12 05:53:27] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:19:59] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 05:53:28] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:19:59] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 05:54:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:20:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 05:55:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:21:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 05:56:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:22:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 05:57:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:23:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 05:58:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:24:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 05:59:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:25:24] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
+[2024-04-17 18:25:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:00:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:26:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:01:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:27:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:02:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:28:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:03:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:29:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:04:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:30:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:05:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:31:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:06:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:32:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:07:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:33:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:08:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:34:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:09:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:35:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:10:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:36:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:11:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:37:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:12:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:38:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:13:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:39:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:14:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:40:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:15:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:41:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:16:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:42:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-12 06:17:26] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:43:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-17 16:22:20] local.INFO: User login successful. {"id":1,"name":"Jhon Doe","username":"admin"} 
-[2024-04-17 16:24:03] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
-[stacktrace]
-#0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
-#1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
-#2 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
-#3 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
-#4 /opt/lampp/htdocs/platinum/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Console/Command.php(152): Symfony\\Component\\Console\\Command\\Command->run()
-#6 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(1078): Illuminate\\Console\\Command->run()
-#7 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
-#8 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
-#9 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
-#10 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run()
-#11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
-#12 {main}
-"} 
-[2024-04-17 16:24:06] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
-[stacktrace]
-#0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
-#1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
-#2 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
-#3 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
-#4 /opt/lampp/htdocs/platinum/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Console/Command.php(152): Symfony\\Component\\Console\\Command\\Command->run()
-#6 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(1078): Illuminate\\Console\\Command->run()
-#7 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
-#8 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
-#9 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
-#10 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run()
-#11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
-#12 {main}
-"} 
-[2024-04-17 16:24:09] local.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php:223)
-[stacktrace]
-#0 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
-#1 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
-#2 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
-#3 /opt/lampp/htdocs/platinum/vendor/symfony/console/Input/Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
-#4 /opt/lampp/htdocs/platinum/vendor/symfony/console/Command/Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
-#5 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Console/Command.php(152): Symfony\\Component\\Console\\Command\\Command->run()
-#6 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(1078): Illuminate\\Console\\Command->run()
-#7 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
-#8 /opt/lampp/htdocs/platinum/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
-#9 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
-#10 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run()
-#11 /opt/lampp/htdocs/platinum/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
-#12 {main}
-"} 
-[2024-04-17 16:24:51] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:44:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-17 16:24:51] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:45:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
-[2024-04-17 16:25:49] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[2024-04-17 18:46:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 18:47:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 18:48:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 18:49:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 18:50:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 18:51:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 18:52:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 18:53:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 18:54:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 18:55:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 18:56:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 18:57:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 18:58:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 18:59:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:00:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:01:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:02:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:03:40] local.ERROR: ErrorException: Array to string conversion in /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php:61
+Stack trace:
+#0 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Array to string...', '/opt/lampp/htdo...', 61)
+#1 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(61): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Array to string...', '/opt/lampp/htdo...', 61)
+#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(292): App\Http\Controllers\Admin\Quote\QuotedController->App\Http\Controllers\Admin\Quote\{closure}(Object(Illuminate\Database\Eloquent\Builder))
+#3 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(59): Illuminate\Database\Eloquent\Builder->where(Object(Closure))
+#4 [internal function]: App\Http\Controllers\Admin\Quote\QuotedController->App\Http\Controllers\Admin\Quote\{closure}(Object(Illuminate\Database\Eloquent\Builder), false)
+#5 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(291): call_user_func_array(Object(Closure), Array)
+#6 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(188): Yajra\DataTables\QueryDataTable->filterRecords()
+#7 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(158): Yajra\DataTables\QueryDataTable->prepareQuery()
+#8 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(166): Yajra\DataTables\QueryDataTable->make(true)
+#9 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\Admin\Quote\QuotedController->index(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(43): Illuminate\Routing\Controller->callAction('index', Array)
+#11 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Route.php(259): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Admin\Quote\QuotedController), 'index')
+#12 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\Routing\Route->runController()
+#13 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(798): Illuminate\Routing\Route->run()
+#14 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#17 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(44): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#18 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Auth\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#22 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Session\Middleware\StartSession->handleStatefulRequest(Object(Illuminate\Http\Request), Object(Illuminate\Session\Store), Object(Closure))
+#25 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#27 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#30 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(797): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#32 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(776): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#33 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(740): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#34 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(729): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#35 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(190): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#36 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#37 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#39 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#42 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#45 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#47 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#48 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#49 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#50 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#51 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#52 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#53 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#54 /opt/lampp/htdocs/platinum/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#55 /opt/lampp/htdocs/platinum/server.php(21): require_once('/opt/lampp/htdo...')
+#56 {main}  
+[2024-04-17 19:03:46] local.ERROR: ErrorException: Array to string conversion in /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php:61
+Stack trace:
+#0 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Array to string...', '/opt/lampp/htdo...', 61)
+#1 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(61): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Array to string...', '/opt/lampp/htdo...', 61)
+#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(292): App\Http\Controllers\Admin\Quote\QuotedController->App\Http\Controllers\Admin\Quote\{closure}(Object(Illuminate\Database\Eloquent\Builder))
+#3 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(59): Illuminate\Database\Eloquent\Builder->where(Object(Closure))
+#4 [internal function]: App\Http\Controllers\Admin\Quote\QuotedController->App\Http\Controllers\Admin\Quote\{closure}(Object(Illuminate\Database\Eloquent\Builder), false)
+#5 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(291): call_user_func_array(Object(Closure), Array)
+#6 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(188): Yajra\DataTables\QueryDataTable->filterRecords()
+#7 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(158): Yajra\DataTables\QueryDataTable->prepareQuery()
+#8 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(166): Yajra\DataTables\QueryDataTable->make(true)
+#9 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\Admin\Quote\QuotedController->index(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(43): Illuminate\Routing\Controller->callAction('index', Array)
+#11 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Route.php(259): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Admin\Quote\QuotedController), 'index')
+#12 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\Routing\Route->runController()
+#13 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(798): Illuminate\Routing\Route->run()
+#14 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#17 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(44): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#18 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Auth\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#22 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Session\Middleware\StartSession->handleStatefulRequest(Object(Illuminate\Http\Request), Object(Illuminate\Session\Store), Object(Closure))
+#25 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#27 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#30 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(797): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#32 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(776): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#33 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(740): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#34 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(729): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#35 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(190): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#36 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#37 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#39 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#42 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#45 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#47 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#48 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#49 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#50 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#51 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#52 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#53 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#54 /opt/lampp/htdocs/platinum/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#55 /opt/lampp/htdocs/platinum/server.php(21): require_once('/opt/lampp/htdo...')
+#56 {main}  
+[2024-04-17 19:03:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:04:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:05:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:06:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:07:52] local.ERROR: ErrorException: Array to string conversion in /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php:61
+Stack trace:
+#0 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Array to string...', '/opt/lampp/htdo...', 61)
+#1 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(61): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Array to string...', '/opt/lampp/htdo...', 61)
+#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(292): App\Http\Controllers\Admin\Quote\QuotedController->App\Http\Controllers\Admin\Quote\{closure}(Object(Illuminate\Database\Eloquent\Builder))
+#3 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(59): Illuminate\Database\Eloquent\Builder->where(Object(Closure))
+#4 [internal function]: App\Http\Controllers\Admin\Quote\QuotedController->App\Http\Controllers\Admin\Quote\{closure}(Object(Illuminate\Database\Eloquent\Builder), false)
+#5 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(291): call_user_func_array(Object(Closure), Array)
+#6 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(188): Yajra\DataTables\QueryDataTable->filterRecords()
+#7 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(158): Yajra\DataTables\QueryDataTable->prepareQuery()
+#8 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(166): Yajra\DataTables\QueryDataTable->make(true)
+#9 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\Admin\Quote\QuotedController->index(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(43): Illuminate\Routing\Controller->callAction('index', Array)
+#11 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Route.php(259): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Admin\Quote\QuotedController), 'index')
+#12 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\Routing\Route->runController()
+#13 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(798): Illuminate\Routing\Route->run()
+#14 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#17 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(44): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#18 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Auth\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#22 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Session\Middleware\StartSession->handleStatefulRequest(Object(Illuminate\Http\Request), Object(Illuminate\Session\Store), Object(Closure))
+#25 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#27 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#30 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(797): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#32 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(776): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#33 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(740): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#34 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(729): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#35 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(190): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#36 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#37 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#39 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#42 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#45 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#47 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#48 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#49 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#50 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#51 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#52 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#53 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#54 /opt/lampp/htdocs/platinum/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#55 /opt/lampp/htdocs/platinum/server.php(21): require_once('/opt/lampp/htdo...')
+#56 {main}  
+[2024-04-17 19:07:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:08:02] local.ERROR: ErrorException: Array to string conversion in /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php:61
+Stack trace:
+#0 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Array to string...', '/opt/lampp/htdo...', 61)
+#1 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(61): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Array to string...', '/opt/lampp/htdo...', 61)
+#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(292): App\Http\Controllers\Admin\Quote\QuotedController->App\Http\Controllers\Admin\Quote\{closure}(Object(Illuminate\Database\Eloquent\Builder))
+#3 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(59): Illuminate\Database\Eloquent\Builder->where(Object(Closure))
+#4 [internal function]: App\Http\Controllers\Admin\Quote\QuotedController->App\Http\Controllers\Admin\Quote\{closure}(Object(Illuminate\Database\Eloquent\Builder), false)
+#5 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(291): call_user_func_array(Object(Closure), Array)
+#6 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(188): Yajra\DataTables\QueryDataTable->filterRecords()
+#7 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(158): Yajra\DataTables\QueryDataTable->prepareQuery()
+#8 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(166): Yajra\DataTables\QueryDataTable->make(true)
+#9 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\Admin\Quote\QuotedController->index(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(43): Illuminate\Routing\Controller->callAction('index', Array)
+#11 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Route.php(259): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Admin\Quote\QuotedController), 'index')
+#12 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\Routing\Route->runController()
+#13 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(798): Illuminate\Routing\Route->run()
+#14 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#17 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(44): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#18 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Auth\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#22 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Session\Middleware\StartSession->handleStatefulRequest(Object(Illuminate\Http\Request), Object(Illuminate\Session\Store), Object(Closure))
+#25 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#27 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#30 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(797): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#32 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(776): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#33 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(740): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#34 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(729): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#35 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(190): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#36 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#37 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#39 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#42 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#45 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#47 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#48 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#49 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#50 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#51 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#52 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#53 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#54 /opt/lampp/htdocs/platinum/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#55 /opt/lampp/htdocs/platinum/server.php(21): require_once('/opt/lampp/htdo...')
+#56 {main}  
+[2024-04-17 19:08:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:09:14] local.ERROR: ErrorException: Array to string conversion in /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php:61
+Stack trace:
+#0 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Array to string...', '/opt/lampp/htdo...', 61)
+#1 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(61): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Array to string...', '/opt/lampp/htdo...', 61)
+#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(292): App\Http\Controllers\Admin\Quote\QuotedController->App\Http\Controllers\Admin\Quote\{closure}(Object(Illuminate\Database\Eloquent\Builder))
+#3 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(59): Illuminate\Database\Eloquent\Builder->where(Object(Closure))
+#4 [internal function]: App\Http\Controllers\Admin\Quote\QuotedController->App\Http\Controllers\Admin\Quote\{closure}(Object(Illuminate\Database\Eloquent\Builder), false)
+#5 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(291): call_user_func_array(Object(Closure), Array)
+#6 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(188): Yajra\DataTables\QueryDataTable->filterRecords()
+#7 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(158): Yajra\DataTables\QueryDataTable->prepareQuery()
+#8 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(166): Yajra\DataTables\QueryDataTable->make(true)
+#9 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\Admin\Quote\QuotedController->index(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(43): Illuminate\Routing\Controller->callAction('index', Array)
+#11 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Route.php(259): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Admin\Quote\QuotedController), 'index')
+#12 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\Routing\Route->runController()
+#13 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(798): Illuminate\Routing\Route->run()
+#14 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#17 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(44): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#18 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Auth\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#22 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Session\Middleware\StartSession->handleStatefulRequest(Object(Illuminate\Http\Request), Object(Illuminate\Session\Store), Object(Closure))
+#25 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#27 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#30 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(797): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#32 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(776): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#33 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(740): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#34 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(729): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#35 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(190): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#36 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#37 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#39 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#42 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#45 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#47 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#48 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#49 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#50 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#51 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#52 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#53 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#54 /opt/lampp/htdocs/platinum/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#55 /opt/lampp/htdocs/platinum/server.php(21): require_once('/opt/lampp/htdo...')
+#56 {main}  
+[2024-04-17 19:09:17] local.ERROR: ErrorException: Array to string conversion in /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php:61
+Stack trace:
+#0 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(270): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Array to string...', '/opt/lampp/htdo...', 61)
+#1 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(61): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Array to string...', '/opt/lampp/htdo...', 61)
+#2 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(292): App\Http\Controllers\Admin\Quote\QuotedController->App\Http\Controllers\Admin\Quote\{closure}(Object(Illuminate\Database\Eloquent\Builder))
+#3 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(59): Illuminate\Database\Eloquent\Builder->where(Object(Closure))
+#4 [internal function]: App\Http\Controllers\Admin\Quote\QuotedController->App\Http\Controllers\Admin\Quote\{closure}(Object(Illuminate\Database\Eloquent\Builder), false)
+#5 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(291): call_user_func_array(Object(Closure), Array)
+#6 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(188): Yajra\DataTables\QueryDataTable->filterRecords()
+#7 /opt/lampp/htdocs/platinum/vendor/yajra/laravel-datatables-oracle/src/QueryDataTable.php(158): Yajra\DataTables\QueryDataTable->prepareQuery()
+#8 /opt/lampp/htdocs/platinum/app/Http/Controllers/Admin/Quote/QuotedController.php(166): Yajra\DataTables\QueryDataTable->make(true)
+#9 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\Admin\Quote\QuotedController->index(Object(Illuminate\Http\Request))
+#10 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(43): Illuminate\Routing\Controller->callAction('index', Array)
+#11 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Route.php(259): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(App\Http\Controllers\Admin\Quote\QuotedController), 'index')
+#12 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\Routing\Route->runController()
+#13 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(798): Illuminate\Routing\Route->run()
+#14 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#15 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#16 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#17 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(44): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#18 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Auth\Middleware\Authenticate->handle(Object(Illuminate\Http\Request), Object(Closure))
+#19 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#20 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\VerifyCsrfToken->handle(Object(Illuminate\Http\Request), Object(Closure))
+#21 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#22 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#23 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#24 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Session\Middleware\StartSession->handleStatefulRequest(Object(Illuminate\Http\Request), Object(Illuminate\Session\Store), Object(Closure))
+#25 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
+#26 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#27 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
+#28 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#29 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#30 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#31 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(797): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#32 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(776): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
+#33 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(740): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
+#34 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Routing/Router.php(729): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#35 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(190): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#36 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
+#37 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#38 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#39 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull->handle(Object(Illuminate\Http\Request), Object(Closure))
+#40 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#41 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
+#42 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
+#43 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#44 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
+#45 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#46 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
+#47 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#48 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
+#49 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#50 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\Http\Middleware\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
+#51 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
+#52 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(165): Illuminate\Pipeline\Pipeline->then(Object(Closure))
+#53 /opt/lampp/htdocs/platinum/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(134): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
+#54 /opt/lampp/htdocs/platinum/public/index.php(51): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#55 /opt/lampp/htdocs/platinum/server.php(21): require_once('/opt/lampp/htdo...')
+#56 {main}  
+[2024-04-17 19:09:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:10:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:11:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:12:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:13:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:14:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:15:59] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:16:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:17:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:18:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:19:59] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:20:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:21:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:22:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:23:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:24:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:25:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:26:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:27:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:28:59] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:29:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:30:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:31:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:32:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:33:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:34:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:35:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:36:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:37:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:38:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:39:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:40:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:41:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:42:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:43:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:44:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:45:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:46:59] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:47:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:48:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:49:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:50:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:51:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:52:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:53:59] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-17 19:54:58] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
 [stacktrace]
 #0 {main}
 "} 
