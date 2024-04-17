@@ -4747,3 +4747,7 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2024-04-17 20:25:59] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinum/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
