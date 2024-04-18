@@ -13,20 +13,39 @@
 @section('content')
 	<div class="content-body">
         <div class="container-fluid">
-                <div class="all-cardBox">
-                <div class="card-box">
-                    <a href="{{route('admin.quotes.index')}}">
-                        <div class="card">
-                           
-                            <div class="card-body">
-                                <div class="circle new-quotes"><i class="fas fa-exclamation"></i></div>
-                                <p class="card-text new-quotes-text">New Quotes</p>
-                                <p class="card-text"><strong>{{$countDataArray['countData']['newQuotes'] ?? '0'}}</strong></p>
+            <div class="col-xl-3 col-xxl-6 col-lg-6 col-sm-6">
+                <div class="widget-stat card bg-primary">
+                    <div class="card-body  p-4">
+                        <div class="media">
+                            <span class="me-3">
+                                <i class="la la-users"></i>
+                            </span>
+                            <div class="media-body text-white">
+                                <p class="mb-1">Total Students</p>
+                                <h3 class="text-white">3280</h3>
+                                <div class="progress mb-2 bg-secondary">
+                                    <div class="progress-bar progress-animated bg-light" style="width: 80%"></div>
+                                </div>
+                                <small>80% Increase in 20 Days</small>
                             </div>
-                            
                         </div>
-                    </a>
+                    </div>
                 </div>
+            </div>
+                <div class="all-cardBox">
+                    <div class="card-box">
+                        <a href="{{route('admin.quotes.index')}}">
+                            <div class="card">
+                            
+                                <div class="card-body">
+                                    <div class="circle new-quotes"><i class="fas fa-exclamation"></i></div>
+                                    <p class="card-text new-quotes-text">New Quotes</p>
+                                    <p class="card-text"><strong>{{$countDataArray['countData']['newQuotes'] ?? '0'}}</strong></p>
+                                </div>
+                                
+                            </div>
+                        </a>
+                    </div>
                 <div class="card-box">
                     <a href="{{route('admin.quoted.index')}}">
                         <div class="card">

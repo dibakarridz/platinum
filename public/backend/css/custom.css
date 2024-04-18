@@ -136,3 +136,7 @@
 .content-body .all-cardBox .card-body {
         font-weight: 600;
 }
+.sortAlignment{
+    padding-left: 6px !important;
+    padding-right: 0px !important;
+}

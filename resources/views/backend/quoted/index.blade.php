@@ -40,13 +40,13 @@
                                         <table id="dataTable" class="table table-striped table-responsive-sm" style="min-width: 845px">
                                             <thead>
                                                 <tr>
-                                                    <th></th>
-                                                    <th>Quote ID</th>
-                                                    <th>User Details</th>
-                                                    <th>Pickup Point</th>
-                                                    <th>Pickup Date</th>
-                                                    <th>Destination</th>
-                                                    <th>Action </th>
+                                                    <th class="sortAlignment"></th>
+                                                    <th class="sortAlignment">Quote ID</th>
+                                                    <th class="sortAlignment">User Details</th>
+                                                    <th class="sortAlignment">Pickup Point</th>
+                                                    <th class="sortAlignment">Pickup Date</th>
+                                                    <th class="sortAlignment">Destination</th>
+                                                    <th class="sortAlignment">Action </th>
                                                 </tr>
                                             </thead>
                                             <tbody>
