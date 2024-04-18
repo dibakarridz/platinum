@@ -68,7 +68,6 @@
 @section('scripts')
     @parent
     <script src="{{url('backend/vendor/datatables/js/jquery.dataTables.min.js')}}"></script>
-    <script src="{{url('backend/js/plugins-init/datatables.init.js')}}"></script>
     <script src="{{url('backend/js/loader.js')}}"></script>
     <script>
        $(function () {
@@ -81,20 +80,15 @@
                 ajax: "{{ route('admin.quotes.index') }}",
                 
                 columns: [
-                    {data: 'id', name: 'id', visible:false },
-                    {data: 'quote_id', name: 'quote_id', orderable: false},
-                    {data: 'user_details', name: 'user_details', orderable: false},
-                    {data: 'pickup_point', name: 'pickup_point', orderable: false},
-                    {data: 'pickup_datetime', name: 'pickup_datetime', orderable: false},
-                    {data: 'destination', name: 'destination', orderable: false},
+                    { data: 'DT_RowIndex', orderable: false, searchable: false,visible: false },
+                    {data: 'quote_id', name: 'quote_id'},
+                    {data: 'user_details', name: 'user_details'},
+                    {data: 'pickup_point', name: 'pickup_point'},
+                    {data: 'pickup_datetime', name: 'pickup_datetime'},
+                    {data: 'destination', name: 'destination'},
                     {data: 'action', name: 'action', orderable: false, searchable: true}
                 ],
-                "order": [[0,'desc']],
-                "pageLength": 15,
-                lengthMenu: [
-                    [15, 25, 50, -1],
-                    [15, 25, 50, 'All']
-                ]
+                columnDefs: [ { orderable: false, targets: [0,1,2,3,4,5]} ]
             });
         });
     </script>

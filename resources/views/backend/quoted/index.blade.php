@@ -74,12 +74,6 @@
             var table = $('#dataTable').DataTable({
                 processing: true,
                 serverSide: true,
-                order: [[ 0 , "desc" ]],
-                pageLength: 15,
-                lengthMenu: [
-                    [15, 25, 50, -1],
-                    [15, 25, 50, 'All']
-                ],
                 columnDefs: [ { orderable: false, targets: [0,1,2,3,4,5]} ],
                 language: {
                         processing: '<div id="resultLoading"><div><i style="font-size: 46px;color: #363062;" class="fa fa-spinner fa-spin fa-2x fa-fw" aria-hidden="true"></i></div><div class="bg"></div></div>'
@@ -88,7 +82,7 @@
                
                 
                 columns: [
-                    {data: 'id', name: 'id', visible: false },
+                    { data: 'DT_RowIndex', orderable: false, searchable: false,visible: false },
                     {data: 'quote_id', name: 'quote_id'},
                     {data: 'user_details', name: 'user_details'},
                     {data: 'pickup_point', name: 'pickup_point'},
