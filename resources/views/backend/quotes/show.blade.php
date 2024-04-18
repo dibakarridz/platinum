@@ -97,12 +97,14 @@
                                             @endif
                                         </td>
                                     </tr>
+                                    @if($query->booked_comment !='') 
                                     <tr>
                                         <td><b>Booking Comment</b></td>
                                         <td>
                                             {!! $query->booked_comment ?: 'No comment' !!}
                                         </td>
                                     </tr>
+                                    @endif
                                 </table>
                             </div>
                         </div>

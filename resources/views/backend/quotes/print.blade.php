@@ -53,7 +53,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><b>Email Address</b></td>
+                                <td><b>Email</b></td>
                                 <td>{{ $query->email ?? '' }}</td>
                             </tr>
                             <tr>
@@ -78,24 +78,6 @@
                             </tr>
 
                             <tr>
-                                <td colspan="2"><h4>System Details</h4></td>
-                            </tr>
-                            <tr>
-                                <td><b>Datetime</b></td>
-                                @if(!empty($query->datetime) && ($query->datetime !='0000-00-00 00:00:00'))
-                                <td>{{Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $query->datetime)->format('D d M Y h:i A')}}</td>
-                                @endif
-                            </tr>
-                            <tr>
-                                <td><b>IP Address</b></td>
-                                <td>{{$query->ip_address ?? ''}}</td>
-                            </tr>
-                            <tr>
-                                <td><b>Website</b></td>
-                                <td>{{$query->comes_website ?? ''}}</td>
-                            </tr>
-
-                            <tr>
                                 <td><b>Status</b></td>
                                 <td>
                                     @if($query->status!='')
@@ -115,7 +97,15 @@
                                     @endif
                                 </td>
                             </tr>
-                        </table>
+                            @if($query->booked_comment !='') 
+                                <tr>
+                                    <td>Booking Comment</td>
+                                    <td>                                                             
+                                        {{strip_tags($query->booked_comment)}}
+                                    </td>
+                                </tr>
+                            @endif
+                        </table>    
                     </div>
 
                     <div class="col-md-5 table-responsive pull-right">
@@ -213,14 +203,6 @@
                                 </tr>
                             @endforeach
                         </table>
-                    </div>
-
-
-                    <div class="col-md-12" style="margin-left: 20px;">
-                        <h4 class="box-title">Booking Comment</h4>
-                        @if($query->booked_comment !='')                                                                        
-                            {{strip_tags($query->booked_comment)}}
-                        @endif
                     </div>
                 </div>
 
