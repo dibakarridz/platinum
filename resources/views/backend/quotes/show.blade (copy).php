@@ -6,21 +6,18 @@
 
 @section('styles')
     @parent
+    <link rel="stylesheet" href="{{url('backend/css/custom.css')}}">
     <style>
-        .nav-tabs {
-            font-size:smaller !important;
-        }
         .line-bar {
             border: 2px solid blue;
             border-radius: .75rem;
             color: rgb(255,255,255,0.25);
           
         }
-        .mycontent-left {
-            border-right: 2px solid blue;
-            border-radius: .75rem;
-            color: rgb(255,255,255,0.25);
+        hr:last-child {
+            display: none;
         }
+		
     </style>
     @stack('styles')
 @endsection
@@ -38,16 +35,16 @@
                         <li class="breadcrumb-item active"><a href="javascript:void(0)">view</a></li>
                     </ol>
                 </div>
-                <div class="col-sm-6 d-flex flex-row-reverse align-items-center">
-                    
-                    <a type="button" href="{{route('admin.quotes.print.view',$query->id)}}" class="btn btn-primary btn-xs" target="_blank"><i class="fas fa-print"></i>&nbsp;Print</a>&nbsp;&nbsp;
+                <div class="col-sm-6 d-flex flex-row-reverse align-items-center viewBtn">
                     <a type="button" href="{{route('admin.quotes.edit',['quote' => $query->id])}}" class="btn btn-secondary btn-xs"><i class="fas fa-edit"></i>&nbsp;Edit</a>
                 </div>
             </div>
             <div class="card mt-4">
-                <div class="row">
-                    <h5>View Quotes({{$query->prefix_quoteid.''.$query->booking->query_id}})</h5>
-                    <div class="col-md-6 mycontent-left">
+                <div class="row">	
+					<div class="col-md-12">
+                    <h5 class="vq">View Quotes({{$query->prefix_quoteid.''.$query->booking->query_id}})</h5>
+					</div>
+                    <div class="col-md-12">
                         <hr class="line-bar">
                         <div class="box box-primary">
                             <div class="box-body">
@@ -60,7 +57,7 @@
                                         <td>{{$query->full_name ?: ''}}</td>
                                     </tr>
                                     <tr>
-                                        <td><b>Email Address</b></td>
+                                        <td><b>Email</b></td>
                                         <td>{{$query->email ?: ''}}</td>
                                     </tr>
                                     <tr>
@@ -85,22 +82,6 @@
                                     </tr>
 
                                     <tr>
-                                        <td colspan="2"><h4><i class="fa fa-arrow-circle-right"></i> System Details</h4></td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Datetime</b></td>
-                                        <td>{{Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $query->datetime)->format('D d M Y h:i A')}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>IP Address</b></td>
-                                        <td>{{$query->ip_address ?: ''}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Website</b></td>
-                                        <td>{{$query->comes_website ?: ''}}</td>
-                                    </tr>
-
-                                    <tr>
                                         <td><b>Status</b></td>
                                         <td>
                                             @if($query->status == 1)
@@ -120,16 +101,16 @@
                             </div>
                         </div>
                         <hr class="line-bar">
-                        <div class="box box-primary">
+                        <div class="box box-primary" style="margin-left:10px !important;">
                             <div class="box-header with-border">
-                                <h3 class="box-title">Booking Comment</h3>
+                                <h4 class="box-title">Booking Comment</h4>
                             </div>
                             <div class="box-body">
-                                {{$query->booked_comment ?: ''}}
+                                {!! $query->booked_comment ?: 'No comment' !!}
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-12">
                         <hr class="line-bar">
                         <div class="box box-primary">
                             <div class="box-body">
@@ -191,10 +172,10 @@
                                 <h3 class="box-title">Quoted Lists</h3>
                             </div>
                             <div class="box-body table-responsive no-padding">
-                                <table class="table table-hover" style="width:100%">
+                                <table class="table table-striped table-responsive-sm">
                                     <tr>
                                         <th>SL</th>
-                                        <th style="width:70%">Prices</th>
+                                        <th>Prices</th>
                                         <th>Details</th>
                                         <th>Sent On</th>
                                     </tr>
@@ -208,7 +189,7 @@
                                             
                                             <td>
                                             <?php foreach ($val['quote_details_price'] as $key => $price){
-                                                echo $price['vehicle_name'].' : <b>&pound;'.$price['quote_price'].'</b><br>';
+                                                echo $price['vehicle_name'].' : <b>&pound;'.$price['quote_price'].'</b><hr>';
                                             }?>
                         
                                             </td>
@@ -222,7 +203,7 @@
                         <hr class="line-bar">
                         <div class="box box-primary">
                             <div class="box-body">
-                                <table class="table" style="width:475px !important">
+                                <table class="table">
                                     <tr>
                                         <td colspan="2"><h4><i class="fa fa-arrow-circle-right"></i> Change Status</h4></td>
                                     </tr>
@@ -243,69 +224,70 @@
                                             @endif
                                         </td>
                                     </tr>
+                                   
                                     <tr>
                                         <td><b> Change Status</b></td>
-                                        <td>
+                                        <td class="changeStatusBtn">
                                             @if($query->status == 1)
-                                                <a class="btn btn-primary btn-xs" data-bs-target="#QuotesChangeStatus"
+                                                <a class="btn btn-primary btn-xs btn-primary-quoted" data-bs-target="#QuotesChangeStatus"
                                                     href="javascript:void(0);" data-bs-toggle="modal" title="Status" 
                                                     onclick="quoteStatusChange('{{ route('admin.quotes.change.status', $query->id)}}','2','Are you sure to change the status as a quoted?')">
                                                     <i class="fas fa-question"></i> Quoted
                                                 </a>
-                                                <a class="btn btn-primary btn-xs" data-bs-target="#QuotesChangeStatus"
+                                                <a class="btn btn-primary btn-xs btn-primary-forward" data-bs-target="#QuotesChangeStatus"
                                                     href="javascript:void(0);" data-bs-toggle="modal" title="Status" 
                                                     onclick="quoteStatusChange('{{ route('admin.quotes.change.status', $query->id)}}','3','Are you sure to change the status as a forward?')">
                                                     <i class="fas fa-share"></i> Forward
                                                 </a>
-                                                <a class="btn btn-primary btn-xs" data-bs-target="#QuotesChangeStatus"
+                                                <a class="btn btn-primary btn-xs btn-primary-booked" data-bs-target="#QuotesChangeStatus"
                                                     href="javascript:void(0);" data-bs-toggle="modal" title="Status" 
                                                     onclick="quoteStatusChange('{{ route('admin.quotes.change.status', $query->id)}}','4','Are you sure to change the status as a booked?')">
                                                     <i class="fas fa-check"></i> Booked
                                                 </a>
                                             @elseif($query->status == 2)
-                                                <a class="btn btn-primary btn-xs" data-bs-target="#QuotesChangeStatus"
+                                                <a class="btn btn-primary btn-xs btn-primary-quotes" data-bs-target="#QuotesChangeStatus"
                                                     href="javascript:void(0);" data-bs-toggle="modal" title="Status" 
                                                     onclick="quoteStatusChange('{{ route('admin.quotes.change.status', $query->id)}}','1','Are you sure to change the status as a new quoted?')">
                                                     <i class="fas fa-exclamation"></i> New Quote
                                                 </a>
-                                                <a class="btn btn-primary btn-xs" data-bs-target="#QuotesChangeStatus"
+                                                <a class="btn btn-primary btn-xs btn-primary-forward" data-bs-target="#QuotesChangeStatus"
                                                     href="javascript:void(0);" data-bs-toggle="modal" title="Status" 
                                                     onclick="quoteStatusChange('{{ route('admin.quotes.change.status', $query->id)}}','3','Are you sure to change the status as a new forward?')">
                                                     <i class="fas fa-share"></i> Forward
                                                 </a>
-                                                <a class="btn btn-primary btn-xs" data-bs-target="#QuotesChangeStatus"
+                                                <a class="btn btn-primary btn-xs btn-primary-booked" data-bs-target="#QuotesChangeStatus"
                                                     href="javascript:void(0);" data-bs-toggle="modal" title="Status" 
                                                     onclick="quoteStatusChange('{{ route('admin.quotes.change.status', $query->id)}}','4','Are you sure to change the status as a new booked?')">
                                                     <i class="fas fa-check"></i> Booked
                                                 </a>
                                             @elseif($query->status == 3)
-                                                <a class="btn btn-primary btn-xs" data-bs-target="#QuotesChangeStatus"
+                                                <a class="btn btn-primary btn-xs btn-primary-quotes" data-bs-target="#QuotesChangeStatus"
                                                     href="javascript:void(0);" data-bs-toggle="modal" title="Status" 
                                                     onclick="quoteStatusChange('{{ route('admin.quotes.change.status', $query->id)}}','1','Are you sure to change the status as a new quoted?')">
                                                     <i class="fas fa-exclamation"></i> New Quote
                                                 </a>
-                                                <a class="btn btn-primary btn-xs" data-bs-target="#QuotesChangeStatus"
+                                                <a class="btn btn-primary btn-xs btn-primary-quoted" data-bs-target="#QuotesChangeStatus"
                                                     href="javascript:void(0);" data-bs-toggle="modal" title="Status" 
                                                     onclick="quoteStatusChange('{{ route('admin.quotes.change.status', $query->id)}}','2','Are you sure to change the status as a quoted?')">
                                                     <i class="fas fa-question"></i> Quoted
                                                 </a>
-                                                <a class="btn btn-primary btn-xs" data-bs-target="#QuotesChangeStatus"
+                                                <a class="btn btn-primary btn-xs btn-primary-booked" data-bs-target="#QuotesChangeStatus"
                                                     href="javascript:void(0);" data-bs-toggle="modal" title="Status" 
                                                     onclick="quoteStatusChange('{{ route('admin.quotes.change.status', $query->id)}}','4','Are you sure to change the status as a new booked?')">
                                                     <i class="fas fa-check"></i> Booked
                                                 </a>
                                             @elseif($query->status == 4)
-                                                <a class="btn btn-primary btn-xs" data-bs-target="#QuotesChangeStatus"
+                                                <a class="btn btn-primary btn-xs btn-primary-quotes" data-bs-target="#QuotesChangeStatus"
                                                     href="javascript:void(0);" data-bs-toggle="modal" title="Status" 
                                                     onclick="quoteStatusChange('{{ route('admin.quotes.change.status', $query->id)}}','1','Are you sure to change the status as a new quoted?')">
                                                     <i class="fas fa-exclamation"></i> New Quote
                                                 </a>
-                                                <a class="btn btn-primary btn-xs" data-bs-target="#QuotesChangeStatus"
+                                                <a class="btn btn-primary btn-xs btn-primary-quoted" data-bs-target="#QuotesChangeStatus"
                                                     href="javascript:void(0);" data-bs-toggle="modal" title="Status" 
                                                     onclick="quoteStatusChange('{{ route('admin.quotes.change.status', $query->id)}}','2','Are you sure to change the status as a quoted?')">
                                                     <i class="fas fa-question"></i> Quoted
                                                 </a>
-                                                <a class="btn btn-primary btn-xs" data-bs-target="#QuotesChangeStatus"
+                                                <a class="btn btn-primary btn-xs btn-primary-forward" data-bs-target="#QuotesChangeStatus"
                                                     href="javascript:void(0);" data-bs-toggle="modal" title="Status" 
                                                     onclick="quoteStatusChange('{{ route('admin.quotes.change.status', $query->id)}}','3','Are you sure to change the status as a new forward?')">
                                                     <i class="fas fa-share"></i>Forward
@@ -313,6 +295,12 @@
                                             @else
                                                 {{'N/A'}}
                                             @endif
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        {{-- <td></td> --}}
+                                        <td>
+                                            <a type="button" href="{{route('admin.quotes.print.view',$query->id)}}" class="btn btn-primary btn-xs" target="_blank"><i class="fas fa-print"></i>&nbsp;Print</a>
                                         </td>
                                     </tr>
                                 </table>

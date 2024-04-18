@@ -36,8 +36,6 @@
                     </ol>
                 </div>
                 <div class="col-sm-6 d-flex flex-row-reverse align-items-center viewBtn">
-                    
-                    <a type="button" href="{{route('admin.quotes.print.view',$query->id)}}" class="btn btn-primary btn-xs" target="_blank"><i class="fas fa-print"></i>&nbsp;Print</a>&nbsp;&nbsp;
                     <a type="button" href="{{route('admin.quotes.edit',['quote' => $query->id])}}" class="btn btn-secondary btn-xs"><i class="fas fa-edit"></i>&nbsp;Edit</a>
                 </div>
             </div>
@@ -46,7 +44,7 @@
 					<div class="col-md-12">
                     <h5 class="vq">View Quotes({{$query->prefix_quoteid.''.$query->booking->query_id}})</h5>
 					</div>
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <hr class="line-bar">
                         <div class="box box-primary">
                             <div class="box-body">
@@ -59,7 +57,7 @@
                                         <td>{{$query->full_name ?: ''}}</td>
                                     </tr>
                                     <tr>
-                                        <td><b>Email Address</b></td>
+                                        <td><b>Email</b></td>
                                         <td>{{$query->email ?: ''}}</td>
                                     </tr>
                                     <tr>
@@ -84,22 +82,6 @@
                                     </tr>
 
                                     <tr>
-                                        <td colspan="2"><h4><i class="fa fa-arrow-circle-right"></i> System Details</h4></td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Datetime</b></td>
-                                        <td>{{Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $query->datetime)->format('D d M Y h:i A')}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>IP Address</b></td>
-                                        <td>{{$query->ip_address ?: ''}}</td>
-                                    </tr>
-                                    <tr>
-                                        <td><b>Website</b></td>
-                                        <td>{{$query->comes_website ?: ''}}</td>
-                                    </tr>
-
-                                    <tr>
                                         <td><b>Status</b></td>
                                         <td>
                                             @if($query->status == 1)
@@ -115,20 +97,17 @@
                                             @endif
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td><b>Booking Comment</b></td>
+                                        <td>
+                                            {!! $query->booked_comment ?: 'No comment' !!}
+                                        </td>
+                                    </tr>
                                 </table>
                             </div>
                         </div>
-                        <hr class="line-bar">
-                        <div class="box box-primary" style="margin-left:10px !important;">
-                            <div class="box-header with-border">
-                                <h4 class="box-title">Booking Comment</h4>
-                            </div>
-                            <div class="box-body">
-                                {!! $query->booked_comment ?: 'No comment' !!}
-                            </div>
-                        </div>
                     </div>
-                    <div class="col-sm-12">
+                    <div class="col-sm-6">
                         <hr class="line-bar">
                         <div class="box box-primary">
                             <div class="box-body">
@@ -184,6 +163,8 @@
                                 </table>
                             </div>
                         </div>
+                    </div>
+                    <div class="col-sm-12">
                         <hr class="line-bar">
                         <div class="box box-primary">
                             <div class="box-header with-border">
@@ -313,6 +294,12 @@
                                             @else
                                                 {{'N/A'}}
                                             @endif
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        {{-- <td></td> --}}
+                                        <td>
+                                            <a type="button" href="{{route('admin.quotes.print.view',$query->id)}}" class="btn btn-primary btn-xs" target="_blank"><i class="fas fa-print"></i>&nbsp;Print</a>
                                         </td>
                                     </tr>
                                 </table>
