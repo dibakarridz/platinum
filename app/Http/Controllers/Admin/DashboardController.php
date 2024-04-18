@@ -32,13 +32,6 @@ class DashboardController extends Controller
         ];
 
         $previousYear = Carbon::now()->subYear();
-        $newQuotes = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
-                    ->whereYear('datetime',$previousYear)
-                    ->where('status',1)
-                    ->groupBy('month')
-                    ->orderBy('month')
-                    ->get();
-     
         $quoted = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
                     ->whereYear('datetime',$previousYear)
                     ->where('status',2)
@@ -75,15 +68,8 @@ class DashboardController extends Controller
         for ($m=1; $m<=12; $m++) {
             $month = date('F', mktime(0,0,0,$m, 1));
           
-            $quotesCount = 0;
-            foreach($newQuotes as $newData){
-                if($newData->month == $m){
-                    $quotesCount = $newData->count;
-                    break;
-                }
-            }
+            
             array_push($labels,$month);
-            array_push($quotesData,$quotesCount);
             $quoteCount = 0;
             foreach($quoted as $quote){
                 if($quote->month == $m){
@@ -118,15 +104,11 @@ class DashboardController extends Controller
             array_push($forwardData,$forwardCount);
         }
 
-        $pieLabels = ['New Quotes', 'Quoted', 'Booked', 'Removed', 'Forward'];
+        $pieLabels = ['Quoted', 'Booked', 'Removed', 'Forward'];
         $colors = [];
         $pieDataArray = [];
 
         foreach($pieLabels as $key => $pie){
-            if($pie == 'New Quotes'){
-                $pieDataArray[] = $newQuotesCountData;
-                $colors[] = '#FF0000';
-            }
             if($pie == 'Quoted'){
                 $pieDataArray[] = $quotedCountData;
                 $colors[] = '#E28743';

@@ -134,17 +134,7 @@
             labels  : {!! json_encode($labels) !!},
             datasets: [
                
-                {
-                label               : 'New Quotes',
-                backgroundColor     : 'rgba(255, 0, 0, 1)',
-                borderColor         : 'rgba(255, 0, 0, 1)',
-                pointRadius         : false,
-                pointColor          : 'rgba(255, 0, 0, 1)',
-                pointStrokeColor    : '#c1c7d1',
-                pointHighlightFill  : '#fff',
-                pointHighlightStroke: 'rgba(220,220,220,1)',
-                data                : {!! json_encode($quotesData) !!}
-                },
+                
                 {
                 label               : 'Quoted',
                 backgroundColor     : 'rgba(226,135,67,1)',
