@@ -11980,7 +11980,7 @@ a {
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #fff;
+    background-color: #000;
     transition: all 0.2s ease;
     z-index: 5;
     box-shadow: 0px -10px 30px 0px rgba(0, 0, 0, 0.02);
@@ -16127,7 +16127,7 @@ html[dir="rtl"]
     top: 5.5rem;
     padding-top: 0;
     z-index: 4;
-    background-color: #fff;
+    background-color: #000;
     transition: all 0.2s ease;
     box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.02);
 }
@@ -16213,7 +16213,7 @@ html[dir="rtl"]
     font-weight: 400;
     display: inline-block;
     font-size: 15px;
-    color: #969ba0;
+    color: #cfcfcf;
 }
 .deznav .metismenu > li > a i {
     color: #969ba0;
@@ -95862,10 +95862,10 @@ $color_pallate_15: #ed0b4c; */
 }
 .content-body .all-cardBox .card-body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 18px 10px 10px 10px !important;
-    background: #ffffff !important;
+    border-radius: 0.75rem;
 }
 [data-sidebar-position="fixed"][data-layout="vertical"] .deznav {
     padding-top: 20px;
@@ -96001,4 +96001,26 @@ font-family: 'Tw Cen MT Std', sans-serif !important;
 }
 .card-body .form-group input {
     color: black;
+}
+[data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li:hover {
+    color: #d79917;
+}
+[data-sidebar-style="full"][data-layout="vertical"] .deznav .metismenu > li > a {
+    border-bottom: 1px solid #ffffff52;
+}
+
+.content-body .all-cardBox .card-body.new-quotes {
+    background-color: #f72b50 !important;
+}
+.content-body .all-cardBox .card-body.quoted {
+    background-color: #e28743 !important;
+}
+.content-body .all-cardBox .card-body.booked {
+    background-color: #49be25 !important;
+}
+.content-body .all-cardBox .card-body.removed {
+    background-color: #676d66 !important;
+}
+.content-body .all-cardBox .card-body.forward {
+    background-color:#5050d0 !important;
 }

@@ -1,4 +1,9 @@
 
 .deznav .metismenu > li.mm-active > a {
-    background: #A9A9A9 !important;
+    background: #d79917 !important;
   }  
+
+.content-body table.dataTable tbody td svg {
+    padding: 7px 0 !important;;
+	    margin-right: 5px !important;;
+}

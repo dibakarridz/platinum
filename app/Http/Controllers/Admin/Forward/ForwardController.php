@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Admin\Forward;
 
 use App\Http\Controllers\Controller;
-use App\Models\Booking;
 use Illuminate\Http\Request;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -22,9 +21,8 @@ class ForwardController extends Controller
    
     public function index(Request $request)
     {
-       
         if ($request->ajax()) {
-            $startDate = (!empty($request->start_date)) ? ($request->start_date) : ('');
+			$startDate = (!empty($request->start_date)) ? ($request->start_date) : ('');
             $endDate = (!empty($request->end_date)) ? ($request->end_date) : ('');
             $start_date = Carbon::parse($startDate);
             $end_date = Carbon::parse($endDate);
@@ -32,6 +30,7 @@ class ForwardController extends Controller
             $returnEndDate = (!empty($request->return_end_date)) ? ($request->return_end_date) : ('');
             $return_start_date = Carbon::parse($returnStartDate);
             $return_end_date = Carbon::parse($returnEndDate);
+			
             $query = Query::select(
                 'id',
                 'prefix_quoteid',
@@ -53,7 +52,7 @@ class ForwardController extends Controller
 					'destination_postcode'
                 );
             }]);
-            if($start_date && $end_date){
+			if($start_date && $end_date){
                 $query->whereHas('booking', function (Builder $queryBetween) use ($start_date, $end_date) {
                     $queryBetween->whereBetween('pick_datetime', [$start_date, $end_date]);
                 });
@@ -62,7 +61,7 @@ class ForwardController extends Controller
                 $query->whereHas('booking', function (Builder $queryBetween) use ($return_start_date, $return_end_date) {
                     $queryBetween->whereBetween('returning_datetime', [$return_start_date, $return_end_date]);
                 });
-            }   
+            }  
             $data = $query->where('status',3)->latest('id');
             return DataTables::of($data)->addIndexColumn()
                 ->filter(function ($instance) use ($request) {

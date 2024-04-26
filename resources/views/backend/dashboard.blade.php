@@ -8,52 +8,39 @@
     @parent
         <link href="{{url('backend/css/custom.css')}}" rel="stylesheet">
     @stack('styles')
+<style>	
+</style>
 @endsection
 
 @section('content')
 	<div class="content-body">
         <div class="container-fluid">
-            <div class="col-xl-3 col-xxl-6 col-lg-6 col-sm-6">
-                <div class="widget-stat card bg-primary">
-                    <div class="card-body  p-4">
-                        <div class="media">
-                            <span class="me-3">
-                                <i class="la la-users"></i>
-                            </span>
-                            <div class="media-body text-white">
-                                <p class="mb-1">Total Students</p>
-                                <h3 class="text-white">3280</h3>
-                                <div class="progress mb-2 bg-secondary">
-                                    <div class="progress-bar progress-animated bg-light" style="width: 80%"></div>
-                                </div>
-                                <small>80% Increase in 20 Days</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
                 <div class="all-cardBox">
-                    <div class="card-box">
-                        <a href="{{route('admin.quotes.index')}}">
-                            <div class="card">
-                            
-                                <div class="card-body">
-                                    <div class="circle new-quotes"><i class="fas fa-exclamation"></i></div>
-                                    <p class="card-text new-quotes-text">New Quotes</p>
-                                    <p class="card-text"><strong>{{$countDataArray['countData']['newQuotes'] ?? '0'}}</strong></p>
-                                </div>
-                                
+                <div class="card-box">
+                    <a href="{{route('admin.quotes.index')}}">
+                        <div class="card">
+                           
+                            <div class="card-body  new-quotes">
+                                <div class="circle"><i class="fas fa-exclamation"></i></div>
+								<div class="contArea">
+                                <p class="card-text new-quotes-text">New Quotes</p>
+                                <p class="card-text"><strong>{{$countDataArray['countData']['newQuotes'] ?? '0'}}</strong></p>
+								</div>
                             </div>
-                        </a>
-                    </div>
+                            
+                        </div>
+                    </a>
+                </div>
                 <div class="card-box">
                     <a href="{{route('admin.quoted.index')}}">
                         <div class="card">
                             <!-- <div class="card-header"></div> -->
-                            <div class="card-body">
-                                <div class="circle quoted"><i class="fas fa-question"></i></div>
+                            <div class="card-body quoted">
+                                <div class="circle "><i class="fas fa-question"></i></div>
+								<div class="contArea">
                                 <p class="card-text quote-text">Quoted</p>
                                 <p class="card-text"><strong>{{$countDataArray['countData']['quoted'] ?? '0'}}</strong></p>
+								</div>
                             </div>
                             <!-- <div class="card-footer"></div> -->
                         </div>
@@ -63,10 +50,12 @@
                     <a href="{{route('admin.booked.index')}}">
                         <div class="card">
                             <!-- <div class="card-header"></div> -->
-                            <div class="card-body">
-                                <div class="circle booked"><i class="fas fa-check"></i></div>
+                            <div class="card-body booked">
+                                <div class="circle "><i class="fas fa-check"></i></div>
+								<div class="contArea">
                                 <p class="card-text book-text">Booked</p>
                                 <p class="card-text"><strong>{{$countDataArray['countData']['booked'] ?? '0'}}</strong></p>
+								</div>
                             </div>
                             <!-- <div class="card-footer"></div> -->
                         </div>
@@ -76,10 +65,12 @@
                     <a href="{{route('admin.removed.index')}}">
                         <div class="card">
                             <!-- <div class="card-header"></div> -->
-                            <div class="card-body">
-                                <div class="circle removed"><i class="fas fa-trash-alt"></i></div>
+                            <div class="card-body removed">
+                                <div class="circle "><i class="fas fa-trash-alt"></i></div>
+								<div class="contArea">
                                 <p class="card-text removed-text">Removed</p>
                                 <p class="card-text"><strong>{{$countDataArray['countData']['removed'] ?? '0'}}</strong></p>
+								</div>
                             </div>
                             <!-- <div class="card-footer"></div> -->
                         </div>
@@ -89,10 +80,12 @@
                     <a href="{{route('admin.forwarded.index')}}">
                         <div class="card">
                             <!-- <div class="card-header"></div> -->
-                            <div class="card-body">
-                                <div class="circle forward"><i class="fas fa-share"></i></div>
+                            <div class="card-body forward">
+                                <div class="circle "><i class="fas fa-share"></i></div>
+								<div class="contArea">
                                 <p class="card-text forward-text">Forwarded</p>
                                 <p class="card-text"><strong>{{$countDataArray['countData']['forwarded'] ?? '0'}}</strong></p>
+								</div>
                             </div>
                             <!-- <div class="card-footer"></div> -->
                         </div>

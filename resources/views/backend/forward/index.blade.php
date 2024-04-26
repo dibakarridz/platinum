@@ -11,7 +11,7 @@
     <link href="{{url('backend/vendor/bootstrap-select/dist/css/bootstrap-select.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" href="{{url('backend/vendor/toastr/css/toastr.min.css')}}">
 	<link rel="stylesheet" href="{{url('backend/css/custom.css')}}">
-    <link rel="stylesheet" href="{{url('backend/vendor/bootstrap-daterangepicker/daterangepicker.css')}}">
+	<link rel="stylesheet" href="{{url('backend/vendor/bootstrap-daterangepicker/daterangepicker.css')}}">
     @stack('styles')
 @endsection
 
@@ -38,10 +38,10 @@
                             <div class="card">
                                 
                                 <div class="card-body">
-                                    <div class="row">
+									<div class="row">
                                         <div class="col-xl-4 mb-3">
                                             <div class="example">
-                                                <p class="mb-1">Pickup Date</p>
+                                                {{-- <p class="mb-1">Pickup Date</p> --}}
                                                 <input id="filter_daterange" class="form-control input-daterange-datepicker"
                                                  type="text" name="daterange" placeholder="Select Pickup Date">
                                                 <input type="hidden" id="start_date" name="start_date" value="">
@@ -50,11 +50,19 @@
                                         </div>
                                         <div class="col-xl-4 mb-3">
                                             <div class="example">
-                                                <p class="mb-1">Returning Date</p>
+                                               {{-- <p class="mb-1">Returning Date</p> --}}
                                                 <input id="filter_returndaterange" class="form-control input-daterange-datepicker"
                                                  type="text" name="returndaterange" placeholder="Select Returning Date">
                                                 <input type="hidden" id="return_start_date" name="return_start_date" value="">
                                                 <input type="hidden" id="return_end_date" name="return_end_date" value="">
+                                            </div>
+                                        </div>
+										<div class="col-xl-4 mb-3">
+                                            <div class="example">
+                                                {{-- <p class="mb-1">Search</p> --}}
+                                                <input id="searchInput" class="form-control"
+                                                 type="text" name="searchInput" placeholder="Search.....">
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -93,14 +101,15 @@
     <script src="{{url('backend/js/loader.js')}}"></script>
     <script>
         $(function () {
-            $('#start_date').val(moment().subtract(100, 'Y'));
+			$('#start_date').val(moment().subtract(100, 'Y'));
             $('#end_date').val(moment().add(1, 'Y'));
             $('#return_start_date').val(moment().subtract(100, 'Y'));
             $('#return_end_date').val(moment().add(1, 'Y'));
-
+			
             var oTable = $('#dataTable').DataTable({
                 processing: true,
                 serverSide: true,
+				bFilter: false,
                 columnDefs: [ { orderable: false, targets: [0,1,2,3,4,5]} ],
                 language: {
                         processing: '<div id="resultLoading"><div><i style="font-size: 46px;color: #363062;" class="fa fa-spinner fa-spin fa-2x fa-fw" aria-hidden="true"></i></div><div class="bg"></div></div>'
@@ -112,7 +121,7 @@
                         d.end_date = $('#end_date').val(),
                         d.return_start_date = $('#return_start_date').val(),
                         d.return_end_date = $('#return_end_date').val(),
-                        d.search = $('input[type="search"]').val()
+                        d.search = $('#searchInput').val()
                     }
                 },
                 columns: [
@@ -125,8 +134,8 @@
                     {data: 'action', name: 'action', orderable: false, searchable: true}
                 ],
             });
-
-            $('.input-daterange-datepicker').daterangepicker({
+			
+			$('.input-daterange-datepicker').daterangepicker({
                 buttonClasses: ['btn', 'btn-sm'],
                 applyClass: 'btn-danger',
                 cancelClass: 'btn-inverse',
@@ -166,6 +175,9 @@
                 $(this).val('');
                 $('#return_start_date').val(moment().subtract(100, 'Y'));
                 $('#return_end_date').val(moment().add(1, 'Y'));
+                oTable.draw();
+            });
+			$("#searchInput").keyup(function(){
                 oTable.draw();
             });
         });

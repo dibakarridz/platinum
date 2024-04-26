@@ -30,46 +30,24 @@ class DashboardController extends Controller
             'booked' => $bookedCountData,
             'removed' => $removedCountData
         ];
-
-        $previousYear = Carbon::now()->subYear();
-        $quoted = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
-                    ->whereYear('datetime',$previousYear)
-                    ->where('status',2)
-                    ->groupBy('month')
-                    ->orderBy('month')
-                    ->get();
-       
-        $forwarded = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
-                    ->whereYear('datetime',$previousYear)
-                    ->where('status',3)
-                    ->groupBy('month')
-                    ->orderBy('month')
-                    ->get();
-        $booked = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
-                    ->whereYear('datetime',$previousYear)
-                    ->where('status',4)
-                    ->groupBy('month')
-                    ->orderBy('month')
-                    ->get();
-        $removed = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
-                    ->whereYear('deleted_at',$previousYear)
-                    ->onlyTrashed()
-                    ->groupBy('month')
-                    ->orderBy('month')
-                    ->get();
-       
-                    
+		
         $labels = [];
-        $quotesData = [];
         $quotedData = [];
         $bookedData = [];
         $removedData = [];
         $forwardData = [];
-        for ($m=1; $m<=12; $m++) {
-            $month = date('F', mktime(0,0,0,$m, 1));
+        for ($m = 0; $m <= 11; $m++) {
+            $month = date('F Y', strtotime(date('Y-m-d') . " -$m months"));
+            $year = date('Y', strtotime(date('Y-m-d') . " -$m months"));
           
             
             array_push($labels,$month);
+			$quoted = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
+                    ->whereYear('datetime',$year)
+                    ->where('status',2)
+                    ->groupBy('month')
+                    ->orderBy('month')
+                    ->get();
             $quoteCount = 0;
             foreach($quoted as $quote){
                 if($quote->month == $m){
@@ -78,6 +56,12 @@ class DashboardController extends Controller
                 }
             }
             array_push($quotedData,$quoteCount);
+			$booked = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
+                    ->whereYear('datetime',$year)
+                    ->where('status',4)
+                    ->groupBy('month')
+                    ->orderBy('month')
+                    ->get();
             $bookedCount = 0;
             foreach($booked as $book){
                 if($book->month == $m){
@@ -86,6 +70,12 @@ class DashboardController extends Controller
                 }
             }
             array_push($bookedData,$bookedCount);
+			$removed = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
+                    ->whereYear('deleted_at',$year)
+                    ->onlyTrashed()
+                    ->groupBy('month')
+                    ->orderBy('month')
+                    ->get();
             $removedCount = 0;
             foreach($removed as $remove){
                 if($remove->month == $m){
@@ -94,6 +84,12 @@ class DashboardController extends Controller
                 }
             }
             array_push($removedData,$removedCount);
+			$forwarded = Query::selectRaw('MONTH(datetime) as month, COUNT(*) as count')
+                    ->whereYear('datetime',$year)
+                    ->where('status',3)
+                    ->groupBy('month')
+                    ->orderBy('month')
+                    ->get();
             $forwardCount = 0;
             foreach($forwarded as $forward){
                 if($forward->month == $m){
@@ -136,7 +132,6 @@ class DashboardController extends Controller
         return view('backend.dashboard',compact(
             'countDataArray',
             'labels',
-            'quotesData',
             'quotedData',
             'bookedData',
             'removedData',
