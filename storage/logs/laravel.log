@@ -3852,3 +3852,19 @@ Stack trace:
 [stacktrace]
 #0 {main}
 "} 
+[2024-04-26 09:34:20] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinumnew/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-26 09:35:20] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinumnew/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-26 09:36:20] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinumnew/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2024-04-26 09:37:20] local.ERROR: Trait "Illuminate\Database\Eloquent\softDeletes" not found {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Trait \"Illuminate\\Database\\Eloquent\\softDeletes\" not found at /opt/lampp/htdocs/platinumnew/app/Models/Booking.php:9)
+[stacktrace]
+#0 {main}
+"} 
